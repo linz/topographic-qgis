@@ -1,0 +1,32 @@
+name: Deploy NonProd
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: nonprod
+    permissions:
+      id-token: write
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: (NonProd) Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ap-southeast-2
+
+      - name: (NonProd) Upload QGIS Projects to S3
+        run: |
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --target s3://linz-topography-nonprod/product/ --commit
+
+          SHORT_SHA=$(git rev-parse --short HEAD)
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag "$SHORT_SHA" --target s3://linz-topography-nonprod/product/ --commit
