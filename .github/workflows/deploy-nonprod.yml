@@ -26,7 +26,5 @@ jobs:
 
       - name: (NonProd) Upload QGIS Projects to S3
         run: |
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --target s3://linz-topography-nonprod/product/ --commit
-
-          SHORT_SHA=$(git rev-parse --short HEAD)
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag "$SHORT_SHA" --target s3://linz-topography-nonprod/product/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --target s3://linz-topography-nonprod/qgis/ --commit
