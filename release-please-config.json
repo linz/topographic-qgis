@@ -1,5 +1,6 @@
 {
   "release-type": "simple",
-  "include-v-in-tag": false,
-  "extra-files": ["VERSION"]
+  "packages": {
+    ".": {}
+  }
 }
