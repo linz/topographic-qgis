@@ -26,5 +26,59 @@ jobs:
 
       - name: (NonProd) Upload QGIS Projects to S3
         run: |
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --target s3://linz-topography-nonprod/qgis/ --commit
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/topographic-system.sh deploy --project "$PWD/map-series/" --tag latest --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/topographic-system.sh deploy --project "$PWD/map-series/" --tag ${{ github.sha }} --target s3://linz-topography-nonprod/qgis/ --commit
+
+screenshot:
+  permissions:
+    id-token: write
+    contents: read
+  needs: [build]
+    name: Take Screenshots
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: (Screenshot) AWS Configure
+        uses: aws-actions/configure-aws-credentials@v4.0.1
+        with:
+          aws-region: ap-southeast-2
+          mask-aws-account-id: true
+          role-to-assume: ${{ secrets.AWS_ROLE_SCREENSHOT }}
+
+      - name: (Screenshot) Screenshot Pull Request Changes
+        run: |
+          # TODO: Update to latest production source when available
+          ./scripts/topographic-system.sh produce --source s3://linz-topography-nonprod/topo/test/2025-12-01/ --project $PWD/map-series/topo50map/topo50-map.qgs --output $PWD/.artifacts/visual-snapshots --format png AW26 AW27
+
+      - name: Save snapshots
+        uses: linz/action-visual-snapshot@v2.1
+        with:
+          save-only: true
+          snapshot-path: .artifacts/visual-snapshots
+
+visual-diff:
+  permissions:
+    id-token: write
+    contents: write
+    checks: write
+  needs: [screenshot]
+  name: Validate Screenshots
+  if: github.ref != 'refs/heads/master' && github.event_name == 'pull_request'
+  runs-on: ubuntu-latest
+  timeout-minutes: 20
+  steps:
+    - name: AWS Configure
+      uses: aws-actions/configure-aws-credentials@v4.0.1
+      with:
+        aws-region: ap-southeast-2
+        mask-aws-account-id: true
+        role-to-assume: ${{ secrets.AWS_ROLE_SCREENSHOT }}
+
+    - name: Diff snapshots
+      id: visual-snapshots-diff
+      uses: linz/action-visual-snapshot@v2.1
+      with:
+        storage-prefix: 's3://linz-topography-screenshot-nonprod'
+        storage-url: 'https://d39gxcf24zezo.cloudfront.net'
