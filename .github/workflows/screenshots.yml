@@ -8,6 +8,7 @@ on:
 
 jobs:
   screenshot:
+    environment: nonprod
     permissions:
       id-token: write
       contents: read
@@ -37,6 +38,7 @@ jobs:
           snapshot-path: .artifacts/visual-snapshots
 
   visual-diff:
+    environment: nonprod
     permissions:
       id-token: write
       contents: write
@@ -59,4 +61,4 @@ jobs:
         uses: linz/action-visual-snapshot@v2.1
         with:
           storage-prefix: "s3://linz-topography-screenshot-nonprod"
-          storage-url: "https://d39gxcf24zezo.cloudfront.net"
+          storage-url: "https://d2glsbt6gvd4ll.cloudfront.net"
