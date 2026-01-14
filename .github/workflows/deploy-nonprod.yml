@@ -1,7 +1,7 @@
 name: Deploy NonProd
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
@@ -26,5 +26,5 @@ jobs:
 
       - name: (NonProd) Upload QGIS Projects to S3
         run: |
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --target s3://linz-topography-nonprod/qgis/ --commit
           ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --target s3://linz-topography-nonprod/qgis/ --commit
