@@ -29,7 +29,7 @@ jobs:
       - name: (Screenshot) Screenshot Pull Request Changes
         run: |
           # TODO: Update to latest production source when available
-          ./scripts/topographic-system.sh produce --source s3://linz-topography-nonprod/topo/test/2025-12-01/ --project $PWD/map-series/topo50map/topo50-map.qgs --output $PWD/.artifacts/visual-snapshots --format png AW26 AW27
+          ./scripts/topographic-system.sh produce --source s3://linz-topography-nonprod/topo/test/2025-12-01/ --project $PWD/map-series/nztopo50map/nz-topo50-map.qgs --output $PWD/.artifacts/visual-snapshots --format png AW26 AW27
 
       - name: Save snapshots
         uses: linz/action-visual-snapshot@v2.1
