@@ -50,4 +50,5 @@ jobs:
       - name: (Prod) Deploy QGIS Projects to S3
         run: |
           VERSION=${{ needs.release-please.outputs.release_version }}; 
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag "$VERSION" --target s3://linz-topography/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag "$VERSION" --githash ${{ github.sha }} --target s3://linz-topography/qgis/ --commit
