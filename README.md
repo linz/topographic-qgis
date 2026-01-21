@@ -4,18 +4,20 @@ Topographic QGIS Project and Support Files
 This repo manages QGIS projects for map production and data edit.
 
 ## map-series
-**topo50map** - qgis map project - data map and layout(s) 
+**nztopo50map** 
 
-**src** - source files to process a map using a qgis project that represents a map series.
+- qgis map project - data map and layout(s) 
+- any images or files used in the layout like logo's etc
 
-Note: files are expected to be in geoparquet format and in the same folder as the project file. 
+Note: data files used by the project files are expected to be in geoparquet format and in the same folder as the project file. 
 The project hold data in a relative position so can be stored on a local environment.
 
 ## qgis-editor
 
-**topo-editor-projects** - default qgis projects to support data editting of topographic layers
+**topo-editor** - default qgis projects to support data editting of topographic layers
 
-NOTE: these hold relative paths to the topographic datasets. When downloaded into a working folder the default name will be topographic-data. The QGIS project should sit in the folder above the datasets.
+NOTE: these hold relative paths to the topographic datasets. When downloaded into a working folder the default name will be topographic-data, topographic-contour-data, topographic-product-data. 
+The QGIS project should sit in the folder above the datasets folders.
 
 *Example:* 
 
