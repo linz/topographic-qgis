@@ -2,8 +2,8 @@ name: Deploy NonProd
 
 on:
   push:
-    branches:
-      - master
+    # branches:
+    #   - master
 
 jobs:
   deploy:
