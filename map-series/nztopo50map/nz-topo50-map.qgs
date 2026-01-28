@@ -54924,7 +54924,7 @@ def my_form_open(dialog, layer, feature):
           </customproperties>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem frame="false" anchorPoint="0" zValue="4" visibility="1" pictureRotation="0" groupUuid="" type="65640" templateUuid="{c75487e3-c675-425e-82c5-4e7c3822f355}" positionLock="false" resizeMode="0" itemRotation="0" mode="1" referencePoint="0" blendMode="0" svgBorderColor="0,0,0,255,rgb:0,0,0,1" file="./BW15#0.pdf" northOffset="0" mapUuid="" size="100.104,420.757,mm" pictureHeight="100.718" background="true" id="" opacity="1" excludeFromExports="0" pictureWidth="100.104" northMode="0" svgBorderWidth="0.2" position="94.3031,496.024,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1" outlineWidthM="0.3,mm" uuid="{c75487e3-c675-425e-82c5-4e7c3822f355}" frameJoinStyle="miter" positionOnPage="94.3031,496.024,mm">
+      <LayoutItem frame="false" anchorPoint="0" zValue="4" visibility="1" pictureRotation="0" groupUuid="" type="65640" templateUuid="{c75487e3-c675-425e-82c5-4e7c3822f355}" positionLock="false" resizeMode="0" itemRotation="0" mode="1" referencePoint="0" blendMode="0" svgBorderColor="0,0,0,255,rgb:0,0,0,1" file="./BW15.pdf" northOffset="0" mapUuid="" size="100.104,420.757,mm" pictureHeight="100.718" background="true" id="" opacity="1" excludeFromExports="0" pictureWidth="100.104" northMode="0" svgBorderWidth="0.2" position="94.3031,496.024,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1" outlineWidthM="0.3,mm" uuid="{c75487e3-c675-425e-82c5-4e7c3822f355}" frameJoinStyle="miter" positionOnPage="94.3031,496.024,mm">
         <FrameColor red="0" blue="0" green="0" alpha="255"/>
         <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
         <LayoutObject>
