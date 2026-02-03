@@ -26,10 +26,10 @@ jobs:
 
       - name: (NonProd) Dry Run Deployment to Validate Files
         run: |
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --target s3://linz-topography-nonprod/qgis/
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag pr-7 --target s3://linz-topography-nonprod/qgis/
 
       - name: (NonProd) Upload QGIS Projects to S3
         # if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --target s3://linz-topography-nonprod/qgis/ --data-tag pr-7 --commit
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --target s3://linz-topography-nonprod/qgis/ --data-tag pr-7  --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag pr-7  --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag pr-7  --target s3://linz-topography-nonprod/qgis/ --commit
