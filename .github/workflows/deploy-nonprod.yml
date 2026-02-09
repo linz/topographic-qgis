@@ -29,7 +29,7 @@ jobs:
           ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag $DATA_TAG --target s3://linz-topography-nonprod/qgis/
 
       - name: (NonProd) Upload QGIS Projects to S3
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        # if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
           # TODO: Remove DATA_TAG once latest data is available in s3
           DATA_TAG=pr-7; 
