@@ -33,5 +33,4 @@ jobs:
         run: |
           # TODO: Update DATA_TAG once latest data is available in s3
           DATA_TAG=next; 
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag $DATA_TAG  --target s3://linz-topography-nonprod/qgis/ --commit
           ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag $DATA_TAG  --target s3://linz-topography-nonprod/qgis/ --commit
