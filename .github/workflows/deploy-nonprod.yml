@@ -22,16 +22,11 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-southeast-2
 
-      - name: (NonProd) Dry Run Deployment to Validate Files
+      - name: (NonProd) Deploy dev QGIS Projects to S3
         run: |
-          # TODO: Remove DATA_TAG once latest data is available in s3
-          DATA_TAG=pr-7; 
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag $DATA_TAG --target s3://linz-topography-nonprod/qgis/
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/qgis/ --commit
 
-      - name: (NonProd) Upload QGIS Projects to S3
+      - name: (NonProd) Deploy latest QGIS Projects to S3
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
-          # TODO: Remove DATA_TAG once latest data is available in s3
-          DATA_TAG=pr-7; 
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag $DATA_TAG  --target s3://linz-topography-nonprod/qgis/ --commit
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/topographic-data/catalog.json --data-tag $DATA_TAG  --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/qgis/ --commit
