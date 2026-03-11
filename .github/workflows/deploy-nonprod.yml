@@ -1,7 +1,10 @@
 name: Deploy NonProd
 
 on:
+  pull_request:
   push:
+    branches:
+      - master
 
 jobs:
   deploy:
@@ -9,7 +12,7 @@ jobs:
     environment: nonprod
     permissions:
       id-token: write
-      contents: read
+      contents: readwrite
       pull-requests: write
 
     steps:
