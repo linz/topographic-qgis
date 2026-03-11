@@ -12,7 +12,7 @@ jobs:
     environment: nonprod
     permissions:
       id-token: write
-      contents: readwrite
+      contents: read
       pull-requests: write
 
     steps:
