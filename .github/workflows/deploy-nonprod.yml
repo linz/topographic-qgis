@@ -24,12 +24,12 @@ jobs:
 
       - name: (NonProd) Deploy dev QGIS Projects to S3
         run: |
-          ./scripts/script.sh deploy --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/script.sh deploy --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/ --commit
 
       - name: (NonProd) Deploy latest QGIS Projects to S3
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
-          ./scripts/script.sh deploy --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/script.sh deploy --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/ --commit
 
       - name: Produce mapsheets
         run: |
