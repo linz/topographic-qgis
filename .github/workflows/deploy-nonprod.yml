@@ -46,7 +46,7 @@ jobs:
       id-token: write
       contents: write
       checks: write
-    needs: [produce-mapsheets]
+    needs: [deploy]
     name: Compare Visual Diff
     runs-on: ubuntu-latest
     timeout-minutes: 20
