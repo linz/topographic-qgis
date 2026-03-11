@@ -42,6 +42,7 @@ jobs:
           snapshot-path: .artifacts/visual-snapshots
 
   visual-diff:
+    environment: nonprod
     permissions:
       id-token: write
       contents: write
@@ -52,7 +53,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: AWS Configure
-        uses: aws-actions/configure-aws-credentials@v4.0.1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-region: ap-southeast-2
           mask-aws-account-id: true
