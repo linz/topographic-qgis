@@ -29,6 +29,11 @@ jobs:
         run: |
           ./scripts/deploy.sh --project "$PWD/map-series/" --tag ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/ --commit
 
+      - name: (NonProd) Deploy latest QGIS Projects to S3
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        run: |
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/qgis/ --commit
+
   visual-diff:
     needs: deploy
     uses: linz/topographic-system/.github/workflows/visual-diff.yml@master
