@@ -32,7 +32,7 @@ jobs:
       - name: (NonProd) Deploy latest QGIS Projects to S3
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
-          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/qgis/ --commit
+          ./scripts/deploy.sh --project "$PWD/map-series/" --tag latest --githash ${{ github.sha }} --source s3://linz-topography-nonprod/data/catalog.json --data-tag latest --target s3://linz-topography-nonprod/ --commit
 
   visual-diff:
     needs: deploy
