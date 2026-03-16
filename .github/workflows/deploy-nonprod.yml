@@ -1,4 +1,4 @@
-name: Deploy NonProd
+name: Deploy
 
 on:
   pull_request:
