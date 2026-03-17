@@ -73031,7 +73031,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" destinationLayerName="Grid lines" destinationLayerProvider="ogr" destinationLayerSource="C:/Temp/kart/topographic-product-data/topographic-product-data.gpkg|layername=nz_topo50_grid">
+  <ProjectGpsSettings autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" destinationLayerName="Grid lines" destinationLayerProvider="ogr" destinationLayerSource="../../topographic-product-data/topographic-product-data.gpkg|layername=nz_topo50_grid">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
