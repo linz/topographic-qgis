@@ -55,5 +55,5 @@ jobs:
     with:
       environment: nonprod
       map_version: "latest"
-      project: s3://linz-topography-nonprod/qgis/nztopo50map/pull_request=${{ github.event.pull_request.number }}/nztopo50map/nz-topo50-map.json
+      project: s3://linz-topography-nonprod/qgis/nztopo50map/pull_request=${{ github.event.pull_request.number }}/nz-topo50-map.json
     secrets: inherit
