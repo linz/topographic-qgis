@@ -14,18 +14,49 @@ The project hold data in a relative position so can be stored on a local environ
 
 ## qgis-editor
 
-**topo-editor** - default qgis projects to support data editting of topographic layers
+**topo-editor** - default qgis projects to support data editing of topographic layers
 
-NOTE: these hold relative paths to the topographic datasets. When downloaded into a working folder the default name will be topographic-data, topographic-contour-data, topographic-product-data. 
-The QGIS project should sit in the folder above the datasets folders.
+NOTE: these hold relative paths to the topographic datasets. When downloaded into a working folder the default name will be topographic-data, topographic-contour-data, topographic-product-data.
 
-*Example:* 
+### Setup
 
-My working area is: c:\\data\topoedit
+You will need to clone this repository into the same parent folder as the data repositories.
 
-My project is located: c:\\data\topoedit\topo-editor.qgz
+1. Consider a working directory somewhere suitable on your local machine:
 
-My data is located: c:\\data\topoedit\topographic-data\topogragic-data.gpkg
+   ```
+   <work_dir>/
+   ```
+
+2. Clone the data repositories via Kart into your working directory.
+
+   ```
+   <work_dir>/topographic-data
+   <work_dir>/topographic-contour-data
+   <work_dir>/topographic-product-data
+   ```
+
+3. Ensure Kart has generated the following GeoPackage files:
+
+   ```
+   <work_dir>/topographic-data/topographic-data.gpkg
+   <work_dir>/topographic-contour-data/topographic-contour-data.gpkg
+   <work_dir>/topographic-product-data/topographic-product-data.gpkg
+   ```
+
+4. Clone this repository into your working directory:
+
+   ```
+   <work_dir>/topographic-qgis
+   ```
+
+5. You should now be able to open the **topo-editor** project in QGIS.
+
+   ```
+   <work_dir>/topographic-qgis/master-project/topo-editor-tiff50.qgis
+   ```
+
+   QGIS should locate the datasets without issue.
 
 **topo-layers**
 
