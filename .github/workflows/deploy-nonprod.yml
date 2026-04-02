@@ -24,7 +24,7 @@ jobs:
 
       - name: (NonProd) Deploy dev QGIS Projects to S3
         run: |
-          ./scripts/deploy.sh "$PWD/map-series/nztopo50map/nz-topo50-map.qgs" \
+          ./scripts/deploy.sh "$PWD/map-series/nztopo50/nztopo50.qgs" \
             --strategy commit=${{ github.sha }} \
             --source s3://linz-topography-nonprod/data/catalog.json \
             --target s3://linz-topography-nonprod/ \
@@ -33,7 +33,7 @@ jobs:
       - name: (NonProd) Deploy latest QGIS Projects to S3
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
-          ./scripts/deploy.sh "$PWD/map-series/nztopo50map/nz-topo50-map.qgs" \
+          ./scripts/deploy.sh "$PWD/map-series/nztopo50/nztopo50.qgs" \
             --strategy latest \
             --strategy commit=${{ github.sha }} \
             --source s3://linz-topography-nonprod/data/catalog.json \
