@@ -41,27 +41,27 @@
           <Option name="qlrbrowserid" type="QString" value="0Mjdhs5vZ1dAP3rVKzzPaPqzhZWtLGxR"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" legend_exp="" legend_split_behavior="0" name="descriptive_text" patch_size="-1,-1" providerKey="ogr" source="./descriptive_text.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" legend_exp="" legend_split_behavior="0" name="descriptive_text" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/descriptive_text/latest/descriptive_text.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" legend_exp="" legend_split_behavior="0" name="geographic_name" patch_size="-1,-1" providerKey="ogr" source="./geographic_name.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" legend_exp="" legend_split_behavior="0" name="geographic_name" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/geographic_name/latest/geographic_name.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c" legend_exp="" legend_split_behavior="0" name="nz_topo50_map_sheet" patch_size="-1,-1" providerKey="ogr" source="./nz_topo50_map_sheet.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c" legend_exp="" legend_split_behavior="0" name="nz_topo50_map_sheet" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_map_sheet/latest/nz_topo50_map_sheet.parquet">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" legend_exp="" legend_split_behavior="0" name="Cartographic Text" patch_size="-1,-1" providerKey="ogr" source="./nz_topo50_carto_text.parquet|subset=&quot;text_string&quot; is not null">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" legend_exp="" legend_split_behavior="0" name="Cartographic Text" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_carto_text/latest/nz_topo50_carto_text.parquet|subset=&quot;text_string&quot; is not null">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -75,14 +75,14 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4" legend_exp="" legend_split_behavior="0" name="DMS grid" patch_size="-1,-1" providerKey="ogr" source="./nz_topo50_dms_grid.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4" legend_exp="" legend_split_behavior="0" name="DMS grid" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_dms_grid/latest/nz_topo50_dms_grid.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" legend_exp="" legend_split_behavior="0" name="Grid lines" patch_size="-1,-1" providerKey="ogr" source="./nz_topo50_grid.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" legend_exp="" legend_split_behavior="0" name="Grid lines" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_grid/latest/nz_topo50_grid.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -95,21 +95,21 @@
           <Option name="qlrbrowserid" type="QString" value="tQZWWHFffacWWQ0lIOyL1QehtopeXUME"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb" legend_exp="" legend_split_behavior="0" name="building_point" patch_size="-1,-1" providerKey="ogr" source="./building_point.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb" legend_exp="" legend_split_behavior="0" name="building_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/building_point/latest/building_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" legend_exp="" legend_split_behavior="0" name="building" patch_size="-1,-1" providerKey="ogr" source="./building.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" legend_exp="" legend_split_behavior="0" name="building" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/building/latest/building.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5" legend_exp="" legend_split_behavior="0" name="residential_area" patch_size="-1,-1" providerKey="ogr" source="./residential_area.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5" legend_exp="" legend_split_behavior="0" name="residential_area" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/residential_area/latest/residential_area.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -123,14 +123,14 @@
           <Option name="qlrbrowserid" type="QString" value="hTI272J06bg4aVrCrXpmtKk9tPV1IKPh"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" legend_exp="" legend_split_behavior="0" name="physical_infrastructure_point" patch_size="-1,-1" providerKey="ogr" source="./physical_infrastructure_point.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" legend_exp="" legend_split_behavior="0" name="physical_infrastructure_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/physical_infrastructure_point/latest/physical_infrastructure_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" legend_exp="" legend_split_behavior="0" name="physical_infrastructure_line" patch_size="-1,-1" providerKey="ogr" source="./physical_infrastructure_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" legend_exp="" legend_split_behavior="0" name="physical_infrastructure_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/physical_infrastructure_line/latest/physical_infrastructure_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -144,21 +144,21 @@
           <Option name="qlrbrowserid" type="QString" value="eQjKcX62J0ng2tAO2usJaqqEVdS3UgtO"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Checked" expanded="0" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" legend_exp="" legend_split_behavior="0" name="structure_point" patch_size="-1,-1" providerKey="ogr" source="./structure_point.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="0" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" legend_exp="" legend_split_behavior="0" name="structure_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/structure_point/latest/structure_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" legend_exp="" legend_split_behavior="0" name="structure_line" patch_size="-1,-1" providerKey="ogr" source="./structure_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" legend_exp="" legend_split_behavior="0" name="structure_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/structure_line/latest/structure_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" legend_exp="" legend_split_behavior="0" name="structure" patch_size="-1,-1" providerKey="ogr" source="./structure.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" legend_exp="" legend_split_behavior="0" name="structure" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/structure/latest/structure.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -172,57 +172,57 @@
           <Option name="qlrbrowserid" type="QString" value="vDXdC3qrCoRUhf52eEL1YyHM4Ek6Aqqf"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0" legend_exp="" legend_split_behavior="0" name="transport_point" patch_size="-1,-1" providerKey="ogr" source="./transport_point.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0" legend_exp="" legend_split_behavior="0" name="transport_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/transport_point/latest/transport_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7" legend_exp="" legend_split_behavior="0" name="railway_station" patch_size="-1,-1" providerKey="ogr" source="./railway_station.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7" legend_exp="" legend_split_behavior="0" name="railway_station" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/railway_station/latest/railway_station.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae" legend_exp="" legend_split_behavior="0" name="track_line" patch_size="-1,-1" providerKey="ogr" source="./track_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae" legend_exp="" legend_split_behavior="0" name="track_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/track_line/latest/track_line.parquet">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06" legend_exp="" legend_split_behavior="0" name="tunnel_line" patch_size="-1,-1" providerKey="ogr" source="./tunnel_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06" legend_exp="" legend_split_behavior="0" name="tunnel_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/tunnel_line/latest/tunnel_line.parquet">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" legend_exp="" legend_split_behavior="0" name="bridge_line" patch_size="-1,-1" providerKey="ogr" source="./bridge_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" legend_exp="" legend_split_behavior="0" name="bridge_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b" legend_exp="" legend_split_behavior="0" name="ferry_crossing" patch_size="-1,-1" providerKey="ogr" source="./ferry_crossing.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b" legend_exp="" legend_split_behavior="0" name="ferry_crossing" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/ferry_crossing/latest/ferry_crossing.parquet">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" legend_exp="" legend_split_behavior="0" name="railway_line" patch_size="-1,-1" providerKey="ogr" source="./railway_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" legend_exp="" legend_split_behavior="0" name="railway_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/railway_line/latest/railway_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba" legend_exp="" legend_split_behavior="0" name="road_line" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba" legend_exp="" legend_split_behavior="0" name="road_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6" legend_exp="" legend_split_behavior="0" name="airport" patch_size="-1,-1" providerKey="ogr" source="./airport.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6" legend_exp="" legend_split_behavior="0" name="airport" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/airport/latest/airport.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -234,14 +234,14 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" legend_exp="" legend_split_behavior="0" name="structure_point map" patch_size="-1,-1" providerKey="ogr" source="./structure_point.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" legend_exp="" legend_split_behavior="0" name="structure_point map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/structure_point/latest/structure_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" legend_exp="" legend_split_behavior="0" name="building_point map" patch_size="-1,-1" providerKey="ogr" source="./building_point.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" legend_exp="" legend_split_behavior="0" name="building_point map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/building_point/latest/building_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -253,105 +253,105 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" legend_exp="" legend_split_behavior="0" name="bridge_line copy" patch_size="-1,-1" providerKey="ogr" source="./bridge_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" legend_exp="" legend_split_behavior="0" name="bridge_line copy" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138" legend_exp="" legend_split_behavior="0" name="road_line 2 lane highway map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138" legend_exp="" legend_split_behavior="0" name="road_line 2 lane highway map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" legend_exp="" legend_split_behavior="0" name="road_line 2 lane metalled map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" legend_exp="" legend_split_behavior="0" name="road_line 2 lane metalled map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" legend_exp="" legend_split_behavior="0" name="road_line 2 lane map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" legend_exp="" legend_split_behavior="0" name="road_line 2 lane map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" legend_exp="" legend_split_behavior="0" name="road_line 1 lane highway map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" legend_exp="" legend_split_behavior="0" name="road_line 1 lane highway map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292" legend_exp="" legend_split_behavior="0" name="road_line 1 lane sealed map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292" legend_exp="" legend_split_behavior="0" name="road_line 1 lane sealed map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" legend_exp="" legend_split_behavior="0" name="road_line 1 lane metalled map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" legend_exp="" legend_split_behavior="0" name="road_line 1 lane metalled map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" legend_exp="" legend_split_behavior="0" name="road_line 1 lane unmetalled map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" legend_exp="" legend_split_behavior="0" name="road_line 1 lane unmetalled map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" legend_exp="" legend_split_behavior="0" name="road_line 2 lane background map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" legend_exp="" legend_split_behavior="0" name="road_line 2 lane background map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943" legend_exp="" legend_split_behavior="0" name="bridge_line copy copy" patch_size="-1,-1" providerKey="ogr" source="./bridge_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943" legend_exp="" legend_split_behavior="0" name="bridge_line copy copy" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" legend_exp="" legend_split_behavior="0" name="road_line 1 lane background map" patch_size="-1,-1" providerKey="ogr" source="./road_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" legend_exp="" legend_split_behavior="0" name="road_line 1 lane background map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" legend_exp="" legend_split_behavior="0" name="bridge_line copy copy" patch_size="-1,-1" providerKey="ogr" source="./bridge_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" legend_exp="" legend_split_behavior="0" name="bridge_line copy copy" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="0" id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c" legend_exp="" legend_split_behavior="0" name="track_line map" patch_size="-1,-1" providerKey="ogr" source="./track_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="0" id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c" legend_exp="" legend_split_behavior="0" name="track_line map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/track_line/latest/track_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" legend_exp="" legend_split_behavior="0" name="railway_line map" patch_size="-1,-1" providerKey="ogr" source="./railway_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" legend_exp="" legend_split_behavior="0" name="railway_line map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/railway_line/latest/railway_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" legend_exp="" legend_split_behavior="0" name="runway" patch_size="-1,-1" providerKey="ogr" source="./runway.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" legend_exp="" legend_split_behavior="0" name="runway" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/runway/latest/runway.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -359,42 +359,42 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083" legend_exp="" legend_split_behavior="0" name="building map" patch_size="-1,-1" providerKey="ogr" source="./building.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083" legend_exp="" legend_split_behavior="0" name="building map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/building/latest/building.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480" legend_exp="" legend_split_behavior="0" name="tree_locations map" patch_size="-1,-1" providerKey="ogr" source="./tree_locations.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480" legend_exp="" legend_split_behavior="0" name="tree_locations map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/tree_locations/latest/tree_locations.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13" legend_exp="" legend_split_behavior="0" name="water_line map" patch_size="-1,-1" providerKey="ogr" source="./water_line.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13" legend_exp="" legend_split_behavior="0" name="water_line map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/water_line/latest/water_line.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a" legend_exp="" legend_split_behavior="0" name="residential_area map" patch_size="-1,-1" providerKey="ogr" source="./residential_area.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a" legend_exp="" legend_split_behavior="0" name="residential_area map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/residential_area/latest/residential_area.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="water_588dc294_2511_4021_b360_d60dd3af4ca4" legend_exp="" legend_split_behavior="0" name="water map" patch_size="-1,-1" providerKey="ogr" source="./water.parquet">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="water_588dc294_2511_4021_b360_d60dd3af4ca4" legend_exp="" legend_split_behavior="0" name="water map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/water/latest/water.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" legend_exp="" legend_split_behavior="0" name="water map merged" patch_size="-1,-1" providerKey="ogr" source="./water.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" legend_exp="" legend_split_behavior="0" name="water map merged" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/water/latest/water.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -407,21 +407,21 @@
           <Option name="qlrbrowserid" type="QString" value="bLE49NIixj9aRf2qtcaxu90y4rx1BD7o"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" legend_exp="" legend_split_behavior="0" name="trig_point" patch_size="-1,-1" providerKey="ogr" source="./trig_point.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" legend_exp="" legend_split_behavior="0" name="trig_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/trig_point/latest/trig_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" legend_exp="" legend_split_behavior="0" name="relief_point map" patch_size="-1,-1" providerKey="ogr" source="./relief_point.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" legend_exp="" legend_split_behavior="0" name="relief_point map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/relief_point/latest/relief_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" legend_exp="" legend_split_behavior="0" name="relief_line map" patch_size="-1,-1" providerKey="ogr" source="./relief_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" legend_exp="" legend_split_behavior="0" name="relief_line map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/relief_line/latest/relief_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -429,14 +429,14 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer checked="Qt::Checked" expanded="0" id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" legend_exp="" legend_split_behavior="0" name="vegetation_line map" patch_size="-1,-1" providerKey="ogr" source="./vegetation_line.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="0" id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" legend_exp="" legend_split_behavior="0" name="vegetation_line map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/vegetation_line/latest/vegetation_line.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" legend_exp="" legend_split_behavior="0" name="vegetation map" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" legend_exp="" legend_split_behavior="0" name="vegetation map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/vegetation/latest/vegetation.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -449,21 +449,21 @@
           <Option name="qlrbrowserid" type="QString" value="NDZ0y2zf6JPE0y5DBVtebLBIzZl32Dus"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" legend_exp="" legend_split_behavior="0" name="tree_locations" patch_size="-1,-1" providerKey="ogr" source="./tree_locations.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" legend_exp="" legend_split_behavior="0" name="tree_locations" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/tree_locations/latest/tree_locations.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" legend_exp="" legend_split_behavior="0" name="place_point" patch_size="-1,-1" providerKey="ogr" source="./place_point.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" legend_exp="" legend_split_behavior="0" name="place_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/place_point/latest/place_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4" legend_exp="" legend_split_behavior="0" name="landcover_point" patch_size="-1,-1" providerKey="ogr" source="./landcover_point.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4" legend_exp="" legend_split_behavior="0" name="landcover_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/landcover_point/latest/landcover_point.parquet">
         <customproperties>
           <Option/>
         </customproperties>
@@ -473,49 +473,49 @@
           <Option/>
         </customproperties>
       </layer-tree-group>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c" legend_exp="" legend_split_behavior="0" name="coastline" patch_size="-1,-1" providerKey="ogr" source="./coastline.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c" legend_exp="" legend_split_behavior="0" name="coastline" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/coastline/latest/coastline.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" legend_exp="" legend_split_behavior="0" name="fence_line" patch_size="-1,-1" providerKey="ogr" source="./fence_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" legend_exp="" legend_split_behavior="0" name="fence_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/fence_line/latest/fence_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" legend_exp="" legend_split_behavior="0" name="landcover_line" patch_size="-1,-1" providerKey="ogr" source="./landcover_line.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" legend_exp="" legend_split_behavior="0" name="landcover_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/landcover_line/latest/landcover_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" legend_exp="" legend_split_behavior="0" name="vegetation_line" patch_size="-1,-1" providerKey="ogr" source="./vegetation_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" legend_exp="" legend_split_behavior="0" name="vegetation_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/vegetation_line/latest/vegetation_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" legend_exp="" legend_split_behavior="0" name="vegetation" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" legend_exp="" legend_split_behavior="0" name="vegetation" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/vegetation/latest/vegetation.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010" legend_exp="" legend_split_behavior="0" name="vegetation map exotic" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010" legend_exp="" legend_split_behavior="0" name="vegetation map exotic" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/vegetation/latest/vegetation.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26" legend_exp="" legend_split_behavior="0" name="landcover" patch_size="-1,-1" providerKey="ogr" source="./landcover.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26" legend_exp="" legend_split_behavior="0" name="landcover" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/landcover/latest/landcover.parquet">
         <customproperties>
           <Option/>
         </customproperties>
@@ -527,61 +527,61 @@
           <Option name="qlrbrowserid" type="QString" value="jgmlxB7T6SShxXHF5zhdZMIh731tUEUs"/>
         </Option>
       </customproperties>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="water_point_6846f50c_9a60_48c1_8295_44887c4ca863" legend_exp="" legend_split_behavior="0" name="water_point" patch_size="-1,-1" providerKey="ogr" source="./water_point.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="water_point_6846f50c_9a60_48c1_8295_44887c4ca863" legend_exp="" legend_split_behavior="0" name="water_point" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/water_point/latest/water_point.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" legend_exp="" legend_split_behavior="0" name="coastline" patch_size="-1,-1" providerKey="ogr" source="./coastline.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" legend_exp="" legend_split_behavior="0" name="coastline" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/coastline/latest/coastline.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650" legend_exp="" legend_split_behavior="0" name="water_line" patch_size="-1,-1" providerKey="ogr" source="./water_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650" legend_exp="" legend_split_behavior="0" name="water_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/water_line/latest/water_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" legend_exp="" legend_split_behavior="0" name="waterway_feature_line" patch_size="-1,-1" providerKey="ogr" source="./waterway_feature_line.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" legend_exp="" legend_split_behavior="0" name="waterway_feature_line" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/waterway_feature_line/latest/waterway_feature_line.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" legend_exp="" legend_split_behavior="0" name="island" patch_size="-1,-1" providerKey="ogr" source="./island.parquet">
+      <layer-tree-layer checked="Qt::Checked" expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" legend_exp="" legend_split_behavior="0" name="island" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/island/latest/island.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d" legend_exp="" legend_split_behavior="0" name="waterway_feature" patch_size="-1,-1" providerKey="ogr" source="./waterway_feature.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d" legend_exp="" legend_split_behavior="0" name="waterway_feature" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/waterway_feature/latest/waterway_feature.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0" legend_exp="" legend_split_behavior="0" name="waterway_feature map" patch_size="-1,-1" providerKey="ogr" source="./waterway_feature.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0" legend_exp="" legend_split_behavior="0" name="waterway_feature map" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/waterway_feature/latest/waterway_feature.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d" legend_exp="" legend_split_behavior="0" name="marine" patch_size="-1,-1" providerKey="ogr" source="./marine.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d" legend_exp="" legend_split_behavior="0" name="marine" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/marine/latest/marine.parquet">
         <customproperties>
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="water_b3dffc51_1f0e_419f_8b80_469a0514e606" legend_exp="" legend_split_behavior="0" name="water" patch_size="-1,-1" providerKey="ogr" source="./water.parquet">
+      <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="water_b3dffc51_1f0e_419f_8b80_469a0514e606" legend_exp="" legend_split_behavior="0" name="water" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/water/latest/water.parquet">
         <customproperties>
           <Option type="Map">
             <Option name="expandedLegendNodes" type="invalid"/>
@@ -589,7 +589,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" legend_exp="" legend_split_behavior="0" name="contour" patch_size="-1,-1" providerKey="ogr" source="./contour.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" legend_exp="" legend_split_behavior="0" name="contour" patch_size="-1,-1" providerKey="ogr" source="https://d1jzh93b1t1cv.cloudfront.net/data/contour/latest/contour.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -1241,7 +1241,7 @@
         <ymax>6223267.10451964288949966</ymax>
       </wgs84extent>
       <id>Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd</id>
-      <datasource>./nz_topo50_carto_text.parquet|subset="text_string" is not null</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_carto_text/latest/nz_topo50_carto_text.parquet|subset="text_string" is not null</datasource>
       <layername>Cartographic Text</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -4209,7 +4209,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34</ymax>
       </wgs84extent>
       <id>DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4</id>
-      <datasource>./nz_topo50_dms_grid.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_dms_grid/latest/nz_topo50_dms_grid.parquet</datasource>
       <layername>DMS grid</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -5113,7 +5113,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.25611522624183891</ymax>
       </wgs84extent>
       <id>Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46</id>
-      <datasource>./nz_topo50_grid.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_grid/latest/nz_topo50_grid.parquet</datasource>
       <layername>Grid lines</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -6435,7 +6435,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.06312295390230105</ymax>
       </wgs84extent>
       <id>airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6</id>
-      <datasource>./airport.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/airport/latest/airport.parquet</datasource>
       <layername>airport</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -7074,7 +7074,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.44065292309402082</ymax>
       </wgs84extent>
       <id>bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da</id>
-      <datasource>./bridge_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet</datasource>
       <layername>bridge_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -7828,7 +7828,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.44065292309402082</ymax>
       </wgs84extent>
       <id>bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571</id>
-      <datasource>./bridge_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet</datasource>
       <layername>bridge_line copy</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -8839,7 +8839,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.44065292309402082</ymax>
       </wgs84extent>
       <id>bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089</id>
-      <datasource>./bridge_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet</datasource>
       <layername>bridge_line copy copy</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -9850,7 +9850,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.44065292309402082</ymax>
       </wgs84extent>
       <id>bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943</id>
-      <datasource>./bridge_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/bridge_line/latest/bridge_line.parquet</datasource>
       <layername>bridge_line copy copy</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -10861,7 +10861,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.50861110532512299</ymax>
       </wgs84extent>
       <id>building_9c85ba90_42e9_4112_9b6b_7ba9974ce083</id>
-      <datasource>./building.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/building/latest/building.parquet</datasource>
       <layername>building map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -11680,7 +11680,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.50861110532512299</ymax>
       </wgs84extent>
       <id>building_fa576c32_d510_48d6_8be4_79a335bc3a46</id>
-      <datasource>./building.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/building/latest/building.parquet</datasource>
       <layername>building</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -12579,7 +12579,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.42607244893461882</ymax>
       </wgs84extent>
       <id>building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa</id>
-      <datasource>./building_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/building_point/latest/building_point.parquet</datasource>
       <layername>building_point map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -13309,7 +13309,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.42607244893461882</ymax>
       </wgs84extent>
       <id>building_point_cd12cedd_4c21_4278_a480_43895fa50deb</id>
-      <datasource>./building_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/building_point/latest/building_point.parquet</datasource>
       <layername>building_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -14020,7 +14020,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.39339082971965667</ymax>
       </wgs84extent>
       <id>coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c</id>
-      <datasource>./coastline.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/coastline/latest/coastline.parquet</datasource>
       <layername>coastline</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -14529,7 +14529,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.39339082971965667</ymax>
       </wgs84extent>
       <id>coastline_e4eb6544_8961_407f_861b_9557608163ef</id>
-      <datasource>./coastline.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/coastline/latest/coastline.parquet</datasource>
       <layername>coastline</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -15179,7 +15179,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-40.49824529890373981</ymax>
       </wgs84extent>
       <id>contour_29b7338d_32d7_4edc_89f1_356ed01fb423</id>
-      <datasource>./contour.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/contour/latest/contour.parquet</datasource>
       <layername>contour</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -16053,7 +16053,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.39945225183365096</ymax>
       </wgs84extent>
       <id>descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c</id>
-      <datasource>./descriptive_text.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/descriptive_text/latest/descriptive_text.parquet</datasource>
       <layername>descriptive_text</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -16618,7 +16618,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41250189257403491</ymax>
       </wgs84extent>
       <id>fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9</id>
-      <datasource>./fence_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/fence_line/latest/fence_line.parquet</datasource>
       <layername>fence_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -17210,7 +17210,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.26222599023792981</ymax>
       </wgs84extent>
       <id>ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b</id>
-      <datasource>./ferry_crossing.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/ferry_crossing/latest/ferry_crossing.parquet</datasource>
       <layername>ferry_crossing</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -17706,7 +17706,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.13005684727763622</ymax>
       </wgs84extent>
       <id>geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7</id>
-      <datasource>./geographic_name.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/geographic_name/latest/geographic_name.parquet</datasource>
       <layername>geographic_name</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -18291,7 +18291,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.12999269203650954</ymax>
       </wgs84extent>
       <id>island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1</id>
-      <datasource>./island.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/island/latest/island.parquet</datasource>
       <layername>island</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -18917,7 +18917,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.4112735976961801</ymax>
       </wgs84extent>
       <id>landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26</id>
-      <datasource>./landcover.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/landcover/latest/landcover.parquet</datasource>
       <layername>landcover</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -19836,7 +19836,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-42.22868337093804314</ymax>
       </wgs84extent>
       <id>landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e</id>
-      <datasource>./landcover_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/landcover_line/latest/landcover_line.parquet</datasource>
       <layername>landcover_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -20531,7 +20531,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.7121667605655162</ymax>
       </wgs84extent>
       <id>landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4</id>
-      <datasource>./landcover_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/landcover_point/latest/landcover_point.parquet</datasource>
       <layername>landcover_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -21024,7 +21024,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.12959295882697575</ymax>
       </wgs84extent>
       <id>marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d</id>
-      <datasource>./marine.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/marine/latest/marine.parquet</datasource>
       <layername>marine</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -21487,7 +21487,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-33.90804959951737629</ymax>
       </wgs84extent>
       <id>nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c</id>
-      <datasource>./nz_topo50_map_sheet.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/nz_topo50_map_sheet/latest/nz_topo50_map_sheet.parquet</datasource>
       <layername>nz_topo50_map_sheet</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -21970,7 +21970,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.71383698685129815</ymax>
       </wgs84extent>
       <id>physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2</id>
-      <datasource>./physical_infrastructure_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/physical_infrastructure_line/latest/physical_infrastructure_line.parquet</datasource>
       <layername>physical_infrastructure_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -22486,7 +22486,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.16177204161245129</ymax>
       </wgs84extent>
       <id>physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724</id>
-      <datasource>./physical_infrastructure_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/physical_infrastructure_point/latest/physical_infrastructure_point.parquet</datasource>
       <layername>physical_infrastructure_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -22957,7 +22957,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.40609416712419488</ymax>
       </wgs84extent>
       <id>place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b</id>
-      <datasource>./place_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/place_point/latest/place_point.parquet</datasource>
       <layername>place_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -23518,7 +23518,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.36069692607923542</ymax>
       </wgs84extent>
       <id>railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e</id>
-      <datasource>./railway_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/railway_line/latest/railway_line.parquet</datasource>
       <layername>railway_line map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -24341,7 +24341,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.36069692607923542</ymax>
       </wgs84extent>
       <id>railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3</id>
-      <datasource>./railway_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/railway_line/latest/railway_line.parquet</datasource>
       <layername>railway_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -25122,7 +25122,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.36074009741555813</ymax>
       </wgs84extent>
       <id>railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7</id>
-      <datasource>./railway_station.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/railway_station/latest/railway_station.parquet</datasource>
       <layername>railway_station</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -25610,7 +25610,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.14465801561642877</ymax>
       </wgs84extent>
       <id>relief_line_2ea69e11_4219_4780_b770_5285273ebbfa</id>
-      <datasource>./relief_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/relief_line/latest/relief_line.parquet</datasource>
       <layername>relief_line map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -26899,7 +26899,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.1332042644436342</ymax>
       </wgs84extent>
       <id>relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd</id>
-      <datasource>./relief_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/relief_point/latest/relief_point.parquet</datasource>
       <layername>relief_point map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -27522,7 +27522,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.81337115836589646</ymax>
       </wgs84extent>
       <id>residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5</id>
-      <datasource>./residential_area.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/residential_area/latest/residential_area.parquet</datasource>
       <layername>residential_area</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -28374,7 +28374,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.81337115836589646</ymax>
       </wgs84extent>
       <id>residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a</id>
-      <datasource>./residential_area.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/residential_area/latest/residential_area.parquet</datasource>
       <layername>residential_area map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -29137,7 +29137,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 2 lane background map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -29994,7 +29994,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 1 lane unmetalled map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -30851,7 +30851,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 2 lane map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -31708,7 +31708,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 1 lane highway map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -32565,7 +32565,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 1 lane metalled map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -33460,7 +33460,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 2 lane metalled map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -34355,7 +34355,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 2 lane highway map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -35212,7 +35212,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_2e45cb01_1167_4f42_a62d_7079febe03ba</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -36187,7 +36187,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_d8e14cba_e85e_46ca_b187_f4656945c292</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 1 lane sealed map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -37044,7 +37044,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41813000019801194</ymax>
       </wgs84extent>
       <id>road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76</id>
-      <datasource>./road_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/road_line/latest/road_line.parquet</datasource>
       <layername>road_line 1 lane background map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -37901,7 +37901,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.48996637357797113</ymax>
       </wgs84extent>
       <id>runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7</id>
-      <datasource>./runway.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/runway/latest/runway.parquet</datasource>
       <layername>runway</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -38596,7 +38596,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.49970573593619605</ymax>
       </wgs84extent>
       <id>structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919</id>
-      <datasource>./structure.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/structure/latest/structure.parquet</datasource>
       <layername>structure</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -39109,7 +39109,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.51552085392719249</ymax>
       </wgs84extent>
       <id>structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212</id>
-      <datasource>./structure_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/structure_line/latest/structure_line.parquet</datasource>
       <layername>structure_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -39638,7 +39638,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.15479538147287286</ymax>
       </wgs84extent>
       <id>structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345</id>
-      <datasource>./structure_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/structure_point/latest/structure_point.parquet</datasource>
       <layername>structure_point map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -41199,7 +41199,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.15479538147287286</ymax>
       </wgs84extent>
       <id>structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806</id>
-      <datasource>./structure_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/structure_point/latest/structure_point.parquet</datasource>
       <layername>structure_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -42755,7 +42755,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.39688295863705036</ymax>
       </wgs84extent>
       <id>track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c</id>
-      <datasource>./track_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/track_line/latest/track_line.parquet</datasource>
       <layername>track_line map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -43737,7 +43737,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.39688295863705036</ymax>
       </wgs84extent>
       <id>track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae</id>
-      <datasource>./track_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/track_line/latest/track_line.parquet</datasource>
       <layername>track_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -44263,7 +44263,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.81996889063729839</ymax>
       </wgs84extent>
       <id>transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0</id>
-      <datasource>./transport_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/transport_point/latest/transport_point.parquet</datasource>
       <layername>transport_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -44741,7 +44741,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.15179936427769292</ymax>
       </wgs84extent>
       <id>tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3</id>
-      <datasource>./tree_locations.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/tree_locations/latest/tree_locations.parquet</datasource>
       <layername>tree_locations</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -45367,7 +45367,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.15179936427769292</ymax>
       </wgs84extent>
       <id>tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480</id>
-      <datasource>./tree_locations.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/tree_locations/latest/tree_locations.parquet</datasource>
       <layername>tree_locations map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -45946,7 +45946,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.40379164628766517</ymax>
       </wgs84extent>
       <id>trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9</id>
-      <datasource>./trig_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/trig_point/latest/trig_point.parquet</datasource>
       <layername>trig_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -46979,7 +46979,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.96047728340133176</ymax>
       </wgs84extent>
       <id>tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06</id>
-      <datasource>./tunnel_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/tunnel_line/latest/tunnel_line.parquet</datasource>
       <layername>tunnel_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -47519,7 +47519,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.13141400089804733</ymax>
       </wgs84extent>
       <id>vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c</id>
-      <datasource>./vegetation.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/vegetation/latest/vegetation.parquet</datasource>
       <layername>vegetation</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -48589,7 +48589,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.13141400089804733</ymax>
       </wgs84extent>
       <id>vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06</id>
-      <datasource>./vegetation.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/vegetation/latest/vegetation.parquet</datasource>
       <layername>vegetation map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -49875,7 +49875,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.4586745550419451</ymax>
       </wgs84extent>
       <id>vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47</id>
-      <datasource>./vegetation_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/vegetation_line/latest/vegetation_line.parquet</datasource>
       <layername>vegetation_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -50554,7 +50554,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.4586745550419451</ymax>
       </wgs84extent>
       <id>vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff</id>
-      <datasource>./vegetation_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/vegetation_line/latest/vegetation_line.parquet</datasource>
       <layername>vegetation_line map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -51246,7 +51246,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.13141400089804733</ymax>
       </wgs84extent>
       <id>vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010</id>
-      <datasource>./vegetation.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/vegetation/latest/vegetation.parquet</datasource>
       <layername>vegetation map exotic</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -52204,7 +52204,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41694243139261289</ymax>
       </wgs84extent>
       <id>water_588dc294_2511_4021_b360_d60dd3af4ca4</id>
-      <datasource>./water.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/water/latest/water.parquet</datasource>
       <layername>water map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -53256,7 +53256,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41694243139261289</ymax>
       </wgs84extent>
       <id>water_b3dffc51_1f0e_419f_8b80_469a0514e606</id>
-      <datasource>./water.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/water/latest/water.parquet</datasource>
       <layername>water</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -54663,7 +54663,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.14599793540462258</ymax>
       </wgs84extent>
       <id>water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650</id>
-      <datasource>./water_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/water_line/latest/water_line.parquet</datasource>
       <layername>water_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -55319,7 +55319,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.14599793540462258</ymax>
       </wgs84extent>
       <id>water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13</id>
-      <datasource>./water_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/water_line/latest/water_line.parquet</datasource>
       <layername>water_line map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -55993,7 +55993,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.41694243139261289</ymax>
       </wgs84extent>
       <id>water_map_c8755a27_95f3_41b9_a721_daa07b2230e9</id>
-      <datasource>./water.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/water/latest/water.parquet</datasource>
       <layername>water map merged</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -56762,7 +56762,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.13514267021688653</ymax>
       </wgs84extent>
       <id>water_point_6846f50c_9a60_48c1_8295_44887c4ca863</id>
-      <datasource>./water_point.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/water_point/latest/water_point.parquet</datasource>
       <layername>water_point</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -57268,7 +57268,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.28335827964806271</ymax>
       </wgs84extent>
       <id>waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0</id>
-      <datasource>./waterway_feature.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/waterway_feature/latest/waterway_feature.parquet</datasource>
       <layername>waterway_feature map</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -57948,7 +57948,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.28335827964806271</ymax>
       </wgs84extent>
       <id>waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d</id>
-      <datasource>./waterway_feature.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/waterway_feature/latest/waterway_feature.parquet</datasource>
       <layername>waterway_feature</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -58628,7 +58628,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-35.21377455337965756</ymax>
       </wgs84extent>
       <id>waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c</id>
-      <datasource>./waterway_feature_line.parquet</datasource>
+      <datasource>https://d1jzh93b1t1cv.cloudfront.net/data/waterway_feature_line/latest/waterway_feature_line.parquet</datasource>
       <layername>waterway_feature_line</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -59998,7 +59998,4 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" destinationLayerName="descriptive_text" destinationLayerProvider="ogr" destinationLayerSource="/home/blacha/git/linz/topographic-qgis/map-series/nztopo50/descriptive_text.parquet">
-    <timeStampFields/>
-  </ProjectGpsSettings>
 </qgis>
