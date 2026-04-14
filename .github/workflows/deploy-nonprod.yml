@@ -1,10 +1,7 @@
-name: deploy-nonprod
+name: Deploy NonProd
 
 on:
-  pull_request:
   push:
-    branches:
-      - master
 
 jobs:
   deploy:
@@ -25,28 +22,31 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-southeast-2
 
-      - name: (NonProd) Deploy PR QGIS Projects to S3
-        if: github.event_name == 'pull_request'
+      - name: (NonProd) Prepare and deploy QGIS Projects to local deploy directory
         run: |
-          ./scripts/deploy.sh \
-            --project "$PWD/map-series/" \
-            --tag pull_request=${{ github.event.pull_request.number }} \
-            --githash ${{ github.sha }} \
+          ./scripts/ts-map.sh deploy \
+            "$PWD/map-series/nztopo50/nztopo50.qgs" \
             --source s3://linz-topography-nonprod/data/catalog.json \
-            --data-tag latest \
+            --target $PWD/deploy \
+
+      - name: (NonProd) Push commit deploy to S3
+        run: |
+          ./scripts/ts-map.sh stac-push \
+            --source $PWD/deploy/catalog.json \
             --target s3://linz-topography-nonprod/ \
+            --category qgis \
+            --strategy commit=${{ github.sha }} \
             --commit
 
-      - name: (NonProd) Deploy latest QGIS Projects to S3
+      - name: (NonProd) Push latest deploy to S3
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
-          ./scripts/deploy.sh \
-            --project "$PWD/map-series/" \
-            --tag latest \
-            --githash ${{ github.sha }} \
-            --source s3://linz-topography-nonprod/data/catalog.json \
-            --data-tag latest \
+          ./scripts/ts-map.sh stac-push \
+            --source $PWD/deploy/catalog.json \
             --target s3://linz-topography-nonprod/ \
+            --category qgis \
+            --strategy latest \
+            --strategy commit=${{ github.sha }} \
             --commit
 
   visual-diff:
