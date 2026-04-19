@@ -16,6 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Lint QGIS Project
+        run: |
+          ./scripts/lint.sh "$PWD/map-series/nztopo50/nztopo50.qgs"
+
       - name: (NonProd) Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
