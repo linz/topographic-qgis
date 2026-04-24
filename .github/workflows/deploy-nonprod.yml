@@ -1,6 +1,7 @@
-name: Deploy NonProd
+name: deploy-nonprod
 
 on:
+  pull_request:
   push:
 
 jobs:
@@ -11,6 +12,8 @@ jobs:
       id-token: write
       contents: read
       pull-requests: write
+    outputs:
+      project_path: ${{ steps.project_path.outputs.project_path }}
 
     steps:
       - name: Checkout
@@ -31,24 +34,39 @@ jobs:
           ./scripts/ts-map.sh deploy \
             "$PWD/map-series/nztopo50/nztopo50.qgs" \
             --source s3://linz-topography-nonprod/data/catalog.json \
-            --target $PWD/deploy \
+            --target "$PWD/deploy"
+
+      - name: Get Commit Path for the project
+        id: project_path
+        run: |
+          first_char="${GITHUB_SHA:0:1}"
+          echo "project_path=s3://linz-topography-nonprod/qgis/nztopo50/commit_prefix=${first_char}/commit=${GITHUB_SHA}/nztopo50.json" >> "$GITHUB_OUTPUT"
 
       - name: (NonProd) Push commit deploy to S3
         run: |
           ./scripts/ts-map.sh stac-push \
-            --source $PWD/deploy/catalog.json \
+            --source "$PWD/deploy/catalog.json" \
             --target s3://linz-topography-nonprod/ \
             --category qgis \
-            --strategy commit=${{ github.sha }} \
+            --strategy "commit=${GITHUB_SHA}" \
             --commit
 
       - name: (NonProd) Push latest deploy to S3
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: |
           ./scripts/ts-map.sh stac-push \
-            --source $PWD/deploy/catalog.json \
+            --source "$PWD/deploy/catalog.json" \
             --target s3://linz-topography-nonprod/ \
             --category qgis \
             --strategy latest \
-            --strategy commit=${{ github.sha }} \
+            --strategy "commit=${GITHUB_SHA}" \
             --commit
+
+  visual-diff:
+    needs: deploy
+    uses: linz/topographic-system/.github/workflows/visual-diff.yml@master
+    with:
+      environment: nonprod
+      map_version: "latest"
+      project: ${{ needs.deploy.outputs.project_path }}
+    secrets: inherit
