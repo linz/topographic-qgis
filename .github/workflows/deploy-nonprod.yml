@@ -64,6 +64,7 @@ jobs:
 
   visual-diff:
     needs: deploy
+    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/master')
     uses: linz/topographic-system/.github/workflows/visual-diff.yml@master
     with:
       environment: nonprod
