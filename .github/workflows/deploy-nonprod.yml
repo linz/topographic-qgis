@@ -3,6 +3,8 @@ name: deploy-nonprod
 on:
   pull_request:
   push:
+    branches:
+      - master
 
 jobs:
   deploy:
