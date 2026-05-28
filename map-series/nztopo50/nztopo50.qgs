@@ -64,7 +64,7 @@
     <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" legend_exp="" legend_split_behavior="0" name="Cartographic Text" patch_size="-1,-1" providerKey="ogr" source="./nz_topo50_carto_text.parquet|subset=&quot;text_string&quot; is not null">
       <customproperties>
         <Option type="Map">
-          <Option name="expandedLegendNodes" type="invalid"/>
+          <Option name="expandedLegendNodes"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
@@ -398,7 +398,7 @@
     <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="water_map_85e508b5_dac4_4fab_85da_3ac08b1b3b04" legend_exp="" legend_split_behavior="0" name="swamp map" patch_size="-1,-1" providerKey="ogr" source="./water.parquet">
       <customproperties>
         <Option type="Map">
-          <Option name="expandedLegendNodes" type="invalid"/>
+          <Option name="expandedLegendNodes"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
@@ -633,7 +633,7 @@
     <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="_a1dfc037_64ce_4afb_9748_3661da4f7769" legend_exp="" legend_split_behavior="0" name="Hillshade Igor Color ramp" patch_size="-1,-1" providerKey="wms" source="contextualWMSLegend=0&amp;crs=EPSG:2193&amp;dpiMode=7&amp;featureCount=10&amp;format=image/webp&amp;layers=hillshade-igor_color-ramp&amp;styles=default&amp;tileMatrixSet=NZTM2000Quad&amp;tilePixelRatio=0&amp;url=https://basemaps.linz.govt.nz/v1/tiles/hillshade-igor/NZTM2000Quad/WMTSCapabilities.xml?api%3Dc01ke5ypm7v5ekb01jhh7c4t06q">
       <customproperties>
         <Option type="Map">
-          <Option name="expandedLegendNodes" type="invalid"/>
+          <Option name="expandedLegendNodes"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
@@ -62012,12 +62012,12 @@ def my_form_open(dialog, layer, feature):
       </checked-legend-nodes>
       <expanded-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571"/>
       <checked-group-nodes>
-        <checked-group-node id="Land/topographic-data"/>
         <checked-group-node id="Annotation"/>
+        <checked-group-node id="Land/topographic-data"/>
       </checked-group-nodes>
       <expanded-group-nodes>
-        <expanded-group-node id="Land/topographic-data"/>
         <expanded-group-node id="Annotation"/>
+        <expanded-group-node id="Land/topographic-data"/>
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-checked-group-info="1" has-expanded-info="1" name="Map5View">
@@ -62143,6 +62143,7 @@ def my_form_open(dialog, layer, feature):
       </checked-group-nodes>
       <expanded-group-nodes>
         <expanded-group-node id="Annotation"/>
+        <expanded-group-node id="Land/topographic-data"/>
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-checked-group-info="1" has-expanded-info="1" name="MapView">

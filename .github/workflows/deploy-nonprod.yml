@@ -42,7 +42,7 @@ jobs:
         id: project_path
         run: |
           first_char="${GITHUB_SHA:0:1}"
-          echo "project_path=s3://linz-topography-nonprod/qgis/nztopo50/commit_prefix=${first_char}/commit=${GITHUB_SHA}/nztopo50.json" >> "$GITHUB_OUTPUT"
+          echo "project_path=https://d1jzh93b1t1cv.cloudfront.net/qgis/nztopo50/commit_prefix=${first_char}/commit=${GITHUB_SHA}/nztopo50.json" >> "$GITHUB_OUTPUT"
 
       - name: (NonProd) Push commit deploy to S3
         run: |
