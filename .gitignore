@@ -1,2 +1,3 @@
-.qgs~
 *.parquet
+*.qgs~
+*.zip
