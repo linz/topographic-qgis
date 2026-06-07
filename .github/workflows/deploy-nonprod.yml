@@ -36,7 +36,7 @@ jobs:
           ./scripts/ts-map.sh deploy \
             "$PWD/map-series/nztopo50/nztopo50.qgs" \
             --source s3://linz-topography-nonprod/data/catalog.json \
-            --target "$PWD/deploy"
+            --target "$PWD/deploy" \
             --extra-assets "$PWD/fonts/"
 
       - name: Get Commit Path for the project
