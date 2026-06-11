@@ -8,6 +8,22 @@ These fonts are sourced from https://github.com/ArtifexSoftware/urw-base35-fonts
 
 under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3, see [COPYING](./COPYING) and [LICENSE](./LICENSE) which have been mirrored from the above repository.
 
+### Modification
+
+Using `fonttools ttx` fonts can be exported into a modifiable ttx file then recompiled
+
+```shell
+mkdir ttx/
+uvx fonttools ttx -d ttx/ *.otf
+```
+
+then compiled again
+
+```shell
+mkdir output/
+uvx fonttools ttx -d output/ ttx/*.ttx
+```
+
 ### Installation
 
 #### Linux
