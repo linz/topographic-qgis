@@ -1,11 +1,12 @@
 # Topo Fonts
 
+Due to rendering quirks across QGIS Windows and Linux these fonts have been renamed to "Nimbus Sans LINZ" to force all consumer environments to use the same bundled otf fonts
 
 ### License
+
 These fonts are sourced from https://github.com/ArtifexSoftware/urw-base35-fonts
 
 under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3, see [COPYING](./COPYING) and [LICENSE](./LICENSE) which have been mirrored from the above repository.
-
 
 ### Installation
 
@@ -24,4 +25,3 @@ Validate they have been installed correctly
 ```shell
 fc-list | grep "Nimbus"
 ```
-
