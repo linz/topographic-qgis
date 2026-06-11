@@ -26,6 +26,14 @@ uvx fonttools ttx -d output/ ttx/*.ttx
 
 ### Installation
 
+#### Windows
+
+Open Control Panel > Fonts
+
+Drag and drop each indifivudal `.otf` file into the font window.
+
+Or follow Windows support [How to Add Fonts](https://support.microsoft.com/en-US/Word/add-a-font)
+
 #### Linux
 
 Copy these fonts into the user's font folder then update the font cache
