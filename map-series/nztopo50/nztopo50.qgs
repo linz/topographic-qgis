@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveDateTime="2026-06-12T11:01:06" saveUser="KBaker" saveUserFull="Karl Baker" version="4.1.0-Master">
+<qgis projectname="" saveDateTime="2026-06-12T15:10:26" saveUser="KBaker" saveUserFull="Karl Baker" version="4.1.0-Master">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -407,7 +407,7 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" legend_exp="" legend_split_behavior="0" name="water map merged" patch_size="-1,-1" providerKey="ogr" source="./water.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="0" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" legend_exp="" legend_split_behavior="0" name="water map merged" patch_size="-1,-1" providerKey="ogr" source="./water.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -449,7 +449,7 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" legend_exp="" legend_split_behavior="0" name="vegetation map" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" legend_exp="" legend_split_behavior="0" name="vegetation map" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -705,79 +705,79 @@
   </layer-tree-group>
   <snapping-settings enabled="1" intersection-snapping="0" maxScale="0" minScale="0" mode="2" scaleDependencyMode="0" self-snapping="0" tolerance="12" type="1" unit="1">
     <individual-layer-settings>
-      <layer-setting enabled="0" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="landuse_38dca51b_4325_41cf_afe2_b4594fe23a71" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="water_point_6846f50c_9a60_48c1_8295_44887c4ca863" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
-      <layer-setting enabled="0" id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="water_588dc294_2511_4021_b360_d60dd3af4ca4" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="water_map_85e508b5_dac4_4fab_85da_3ac08b1b3b04" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="water_b3dffc51_1f0e_419f_8b80_469a0514e606" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
       <layer-setting enabled="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
-      <layer-setting enabled="1" id="railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="0" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
       <layer-setting enabled="0" id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="water_point_6846f50c_9a60_48c1_8295_44887c4ca863" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
       <layer-setting enabled="0" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
+      <layer-setting enabled="0" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
       <layer-setting enabled="0" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
-      <layer-setting enabled="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
-      <layer-setting enabled="0" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
       <layer-setting enabled="0" id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="water_b3dffc51_1f0e_419f_8b80_469a0514e606" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
+      <layer-setting enabled="1" id="marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="water_588dc294_2511_4021_b360_d60dd3af4ca4" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
+      <layer-setting enabled="0" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
+      <layer-setting enabled="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" maxScale="0" minScale="0" tolerance="12" type="4" units="1"/>
+      <layer-setting enabled="1" id="track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="water_map_85e508b5_dac4_4fab_85da_3ac08b1b3b04" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="landuse_38dca51b_4325_41cf_afe2_b4594fe23a71" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
       <layer-setting enabled="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" maxScale="0" minScale="0" tolerance="12" type="1" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -785,10 +785,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>1371048.27900194842368364</xmin>
-      <ymin>5181161.83678155671805143</ymin>
-      <xmax>1375710.36012367624789476</xmax>
-      <ymax>5187258.89837145339697599</ymax>
+      <xmin>1373936.65630634687840939</xmin>
+      <ymin>5207164.73257142305374146</ymin>
+      <xmax>1384426.33883023448288441</xmax>
+      <ymax>5220883.12114869058132172</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -1063,8 +1063,8 @@
         <legendlayerfile isInOverview="0" layerid="landuse_38dca51b_4325_41cf_afe2_b4594fe23a71" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="water map merged" open="true" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="water map merged" open="false" showFeatureCount="0">
+      <filegroup hidden="false" open="false">
         <legendlayerfile isInOverview="0" layerid="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -1090,8 +1090,8 @@
         <legendlayerfile isInOverview="0" layerid="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="vegetation map" open="false" showFeatureCount="0">
-      <filegroup hidden="false" open="false">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="vegetation map" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -3333,7 +3333,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
                 <Option name="draw_inside_polygon" type="QString" value="0"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
-                <Option name="line_color" type="QString" value="41,160,211,255,hsv:0.54991668462753296,0.80747693777084351,0.82610815763473511,1"/>
+                <Option name="line_color" type="QString" value="0,158,255,255,cmyk:1,0.3799954354763031,0,0,1"/>
                 <Option name="line_style" type="QString" value="solid"/>
                 <Option name="line_width" type="QString" value="0.26"/>
                 <Option name="line_width_unit" type="QString" value="MM"/>
@@ -13351,8 +13351,8 @@ def my_form_open(dialog, layer, feature):
           </Option>
           <Option name="embeddedWidgets/count" type="int" value="0"/>
           <Option name="userNotes" type="QString" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.3pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Labels&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- allow for outside down&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- masking does not allow for the multiply effect &lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- color of labels need to match the masking color: #d58500 &lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- need to determine minimum length to be labeled&lt;/p>&lt;/body>&lt;/html>"/>
-          <Option name="variableNames" type="invalid"/>
-          <Option name="variableValues" type="invalid"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>6</blendMode>
@@ -13895,7 +13895,7 @@ def my_form_open(dialog, layer, feature):
       </selection>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="info_display" fontFamily="Nimbus Sans LINZ" fontItalic="0" fontKerning="1" fontLetterSpacing="0" fontSize="10" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="50" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Regular" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="0,0,0,255,rgb:0,0,0,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
+          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="info_display" fontFamily="Nimbus Sans LINZ" fontItalic="0" fontKerning="1" fontLetterSpacing="0" fontSize="10" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Regular" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="0,0,0,255,rgb:0,0,0,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
             <families/>
             <text-buffer bufferBlendMode="0" bufferColor="255,255,255,255,rgb:1,1,1,1" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"/>
             <text-mask maskEnabled="0" maskJoinStyle="128" maskOpacity="1" maskSize="1.5" maskSize2="1.5" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers=""/>
@@ -15427,7 +15427,7 @@ def my_form_open(dialog, layer, feature):
       </selection>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="name" fontFamily="Nimbus Sans LINZ" fontItalic="0" fontKerning="1" fontLetterSpacing="0" fontSize="10" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="50" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Regular" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="0,0,0,255,rgb:0,0,0,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
+          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="name" fontFamily="Nimbus Sans LINZ" fontItalic="0" fontKerning="1" fontLetterSpacing="0" fontSize="10" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Regular" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="0,0,0,255,rgb:0,0,0,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
             <families/>
             <text-buffer bufferBlendMode="0" bufferColor="255,255,255,255,rgb:1,1,1,1" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"/>
             <text-mask maskEnabled="0" maskJoinStyle="128" maskOpacity="1" maskSize="1.5" maskSize2="1.5" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers=""/>
@@ -20274,7 +20274,7 @@ def my_form_open(dialog, layer, feature):
           <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="text_string" fontFamily="Nimbus Sans LINZ" fontItalic="1" fontKerning="1" fontLetterSpacing="0" fontSize="10" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="251,73,245,255,hsv:0.83883333206176758,0.70795756578445435,0.9843137264251709,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
             <families/>
             <text-buffer bufferBlendMode="0" bufferColor="250,250,250,255,rgb:0.9803922,0.9803922,0.9803922,1" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"/>
-            <text-mask maskEnabled="0" maskJoinStyle="128" maskOpacity="1" maskSize="1.5" maskSize2="1.5" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers=""/>
+            <text-mask maskEnabled="1" maskJoinStyle="128" maskOpacity="1" maskSize="2.5000000000000009" maskSize2="2.5000000000000009" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b;{9ead377c-7c49-4538-a283-3a18b4e17660};contour_29b7338d_32d7_4edc_89f1_356ed01fb423;{9ead377c-7c49-4538-a283-3a18b4e17660}"/>
             <background shapeBlendMode="0" shapeBorderColor="128,128,128,255,rgb:0.5019608,0.5019608,0.5019608,1" shapeBorderWidth="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="Point" shapeDraw="0" shapeFillColor="255,255,255,255,rgb:1,1,1,1" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="Point" shapeOffsetX="0" shapeOffsetY="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="Point" shapeRadiiX="0" shapeRadiiY="0" shapeRotation="0" shapeRotationType="0" shapeSVGFile="" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeSizeUnit="Point" shapeSizeX="0" shapeSizeY="0" shapeType="0">
               <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="markerSymbol" type="marker">
                 <data_defined_properties>
@@ -20461,8 +20461,8 @@ def my_form_open(dialog, layer, feature):
             <Option type="invalid"/>
           </Option>
           <Option name="embeddedWidgets/count" type="int" value="0"/>
-          <Option name="variableNames" type="invalid"/>
-          <Option name="variableValues" type="invalid"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -21966,8 +21966,8 @@ def my_form_open(dialog, layer, feature):
           </Option>
           <Option name="embeddedWidgets/count" type="int" value="0"/>
           <Option name="userNotes" type="QString" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.3pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Labels&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- allow for outside down&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- masking does not allow for the multiply effect &lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- color of labels need to match the masking color: #d58500 &lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>- need to determine minimum length to be labeled&lt;/p>&lt;/body>&lt;/html>"/>
-          <Option name="variableNames" type="invalid"/>
-          <Option name="variableValues" type="invalid"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -28677,7 +28677,7 @@ def my_form_open(dialog, layer, feature):
       </selection>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="name" fontFamily="Nimbus Sans LINZ" fontItalic="1" fontKerning="1" fontLetterSpacing="0" fontSize="13" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="600" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="163,2,89,255,rgb:0.6392157,0.0078431,0.3490196,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
+          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="name" fontFamily="Nimbus Sans LINZ" fontItalic="1" fontKerning="1" fontLetterSpacing="0" fontSize="13" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="163,2,89,255,rgb:0.6392157,0.0078431,0.3490196,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
             <families/>
             <text-buffer bufferBlendMode="0" bufferColor="250,250,250,255,rgb:0.9803922,0.9803922,0.9803922,1" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"/>
             <text-mask maskEnabled="0" maskJoinStyle="128" maskOpacity="1" maskSize="1.5" maskSize2="1.5" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers=""/>
@@ -29407,7 +29407,7 @@ def my_form_open(dialog, layer, feature):
       </selection>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="name" fontFamily="Nimbus Sans LINZ" fontItalic="1" fontKerning="1" fontLetterSpacing="0" fontSize="13" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="600" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="163,2,89,255,rgb:0.6392157,0.0078431,0.3490196,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
+          <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="name" fontFamily="Nimbus Sans LINZ" fontItalic="1" fontKerning="1" fontLetterSpacing="0" fontSize="13" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="0" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="163,2,89,255,rgb:0.6392157,0.0078431,0.3490196,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
             <families/>
             <text-buffer bufferBlendMode="0" bufferColor="250,250,250,255,rgb:0.9803922,0.9803922,0.9803922,1" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"/>
             <text-mask maskEnabled="0" maskJoinStyle="128" maskOpacity="1" maskSize="1.5" maskSize2="1.5" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers=""/>
@@ -47092,7 +47092,7 @@ def my_form_open(dialog, layer, feature):
         <rules key="{7692a97d-d92a-4f55-9595-c18fd4c05f6b}">
           <rule description="Elvation" filter="&quot;elevation&quot;" key="{ee0c3b19-95b2-480c-b576-e6f9d68065a1}">
             <settings calloutType="simple">
-              <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="elevation || 'm'" fontFamily="Nimbus Sans LINZ" fontItalic="0" fontKerning="1" fontLetterSpacing="0" fontSize="5" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="1" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Narrow Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="0,0,0,255,rgb:0,0,0,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
+              <text-style allowHtml="0" blendMode="0" capitalization="0" fieldName="elevation || 'm'" fontFamily="Nimbus Sans LINZ" fontItalic="1" fontKerning="1" fontLetterSpacing="0" fontSize="5" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="400" fontWordSpacing="0" forcedBold="0" forcedItalic="0" isExpression="1" legendString="Aa" multilineHeight="1" multilineHeightUnit="Percentage" namedStyle="Narrow Italic" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" stretchFactor="100" tabStopDistance="80" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" tabStopDistanceUnit="Point" textColor="0,0,0,255,rgb:0,0,0,1" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
                 <families/>
                 <text-buffer bufferBlendMode="0" bufferColor="250,250,250,255,rgb:0.9803922,0.9803922,0.9803922,1" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"/>
                 <text-mask maskEnabled="1" maskJoinStyle="128" maskOpacity="1" maskSize="1" maskSize2="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers="50268_405312_nz_fence_centrelines_topo_150k_13273ac0_0251_473d_8f67_dcc31a19df33;{3d3d3ab1-ccc2-460d-a55b-cfe083782fa9};50311_405803_nz_powerline_centrelines_topo_150k_3e679d58_9e6d_4683_8419_88877e7c93a1;{4b07906e-5baf-4f7d-9b24-5d47df19f37f};50311_405803_nz_powerline_centrelines_topo_150k_3e679d58_9e6d_4683_8419_88877e7c93a1;{6b9e59c2-a898-4246-8a00-13f9a7fadaa6};50311_405803_nz_powerline_centrelines_topo_150k_3e679d58_9e6d_4683_8419_88877e7c93a1;{6a37dc2d-f533-4709-ad1d-f1af25241716}"/>
@@ -49608,12 +49608,12 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleFill" enabled="1" id="{13b9621f-9b54-43f3-ac0d-85c7ae702b59}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="164,214,94,51,rgb:0.6431373,0.8392157,0.3686275,0.2"/>
+                <Option name="color" type="QString" value="148,255,59,102,cmyk:0.42000457644462585,0,0.77000075578689575,0,0.40000000596046448"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="167,192,94,255,rgb:0.654902,0.7529412,0.3686275,1"/>
+                <Option name="outline_color" type="QString" value="148,255,59,255,cmyk:0.42000457644462585,0,0.77000075578689575,0,1"/>
                 <Option name="outline_style" type="QString" value="solid"/>
                 <Option name="outline_width" type="QString" value="0.1"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
@@ -49669,12 +49669,12 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleFill" enabled="1" id="{e34c3e1d-876f-4637-9106-f270aa73d600}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="164,214,94,102,rgb:0.6431373,0.8392157,0.3686275,0.4"/>
+                <Option name="color" type="QString" value="148,255,59,102,cmyk:0.42000457644462585,0,0.77000075578689575,0,0.40000000596046448"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="167,192,94,255,rgb:0.654902,0.7529412,0.3686275,1"/>
+                <Option name="outline_color" type="QString" value="148,255,59,255,cmyk:0.42000457644462585,0,0.77000075578689575,0,1"/>
                 <Option name="outline_style" type="QString" value="solid"/>
                 <Option name="outline_width" type="QString" value="0.1"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
@@ -49884,12 +49884,12 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleFill" enabled="1" id="{6e68846c-6fec-47de-921f-4f9e2d02f098}" locked="0" pass="0">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="164,214,94,51,rgb:0.6431373,0.8392157,0.3686275,0.2"/>
+                <Option name="color" type="QString" value="148,255,59,64,cmyk:0.42000457644462585,0,0.77000075578689575,0,0.25000381469726563"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="167,192,94,255,rgb:0.654902,0.7529412,0.3686275,1"/>
+                <Option name="outline_color" type="QString" value="148,255,59,255,cmyk:0.42000457644462585,0,0.77000075578689575,0,1"/>
                 <Option name="outline_style" type="QString" value="solid"/>
                 <Option name="outline_width" type="QString" value="0.1"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
@@ -56690,7 +56690,7 @@ def my_form_open(dialog, layer, feature):
           <category label="pond" render="false" symbol="3" type="string" uuid="{04abfff2-0379-42bf-bdd4-7f14fb475fd0}" value="pond"/>
           <category label="rapid" render="false" symbol="4" type="string" uuid="{34eb1d59-c21c-4418-852b-02c0707ddf21}" value="rapid"/>
           <category label="reservoir" render="false" symbol="5" type="string" uuid="{d0239d53-6170-4f81-acf7-689bfb30e91f}" value="reservoir"/>
-          <category label="swamp" render="true" symbol="6" type="string" uuid="{463c7881-cdf7-49b2-9178-299825f6c08e}" value="swamp"/>
+          <category label="swamp" render="false" symbol="6" type="string" uuid="{463c7881-cdf7-49b2-9178-299825f6c08e}" value="swamp"/>
           <category label="waterfall" render="false" symbol="7" type="string" uuid="{f390d70e-02e1-4e9c-aff8-6d415c4b2199}" value="waterfall"/>
           <category label="" render="false" symbol="8" type="string" uuid="{2622cb13-7133-491a-b188-2b6603f88949}" value=""/>
         </categories>
@@ -57746,7 +57746,11 @@ def my_form_open(dialog, layer, feature):
         </profileMarkerSymbol>
       </elevation>
       <renderer-v2 enableorderby="0" forceraster="0" referencescale="50000" symbollevels="0" type="mergedFeatureRenderer">
-        <renderer-v2 enableorderby="0" forceraster="0" referencescale="50000" symbollevels="0" type="singleSymbol">
+        <renderer-v2 enableorderby="0" forceraster="0" referencescale="50000" symbollevels="0" type="RuleRenderer">
+          <rules key="{f42e841c-308e-4233-9986-a0d71599c3ea}">
+            <rule filter="ELSE" key="{5d4fc6c5-f767-4278-b563-06b3b93ae707}" symbol="0"/>
+            <rule filter=" &quot;feature_type&quot; = 'swamp'" key="{3ae94b02-324f-4ac1-8d57-80c2ef15d712}" label="Swamp" symbol="1"/>
+          </rules>
           <symbols>
             <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="0" type="fill">
               <data_defined_properties>
@@ -57779,9 +57783,94 @@ def my_form_open(dialog, layer, feature):
                 </data_defined_properties>
               </layer>
             </symbol>
+            <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="1" type="fill">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+              <layer class="SimpleFill" enabled="1" id="{fb878027-a1ab-4d48-9287-0d830cdcb548}" locked="0" pass="0">
+                <Option type="Map">
+                  <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="color" type="QString" value="75,215,236,0,rgb:0.2941177,0.8431373,0.9254902,0"/>
+                  <Option name="joinstyle" type="QString" value="bevel"/>
+                  <Option name="offset" type="QString" value="0,0"/>
+                  <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="offset_unit" type="QString" value="MM"/>
+                  <Option name="outline_color" type="QString" value="0,158,255,255,cmyk:1,0.3799954354763031,0,0,1"/>
+                  <Option name="outline_style" type="QString" value="dash"/>
+                  <Option name="outline_width" type="QString" value="0.1"/>
+                  <Option name="outline_width_unit" type="QString" value="MM"/>
+                  <Option name="style" type="QString" value="solid"/>
+                </Option>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" type="QString" value=""/>
+                    <Option name="properties"/>
+                    <Option name="type" type="QString" value="collection"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+              <layer class="RandomMarkerFill" enabled="1" id="{bde6ba10-c752-4e73-888c-e3ba96ebd33a}" locked="0" pass="0">
+                <Option type="Map">
+                  <Option name="clip_points" type="QString" value="1"/>
+                  <Option name="count_method" type="QString" value="0"/>
+                  <Option name="density_area" type="QString" value="250"/>
+                  <Option name="density_area_unit" type="QString" value="MM"/>
+                  <Option name="density_area_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                  <Option name="point_count" type="QString" value="10"/>
+                  <Option name="seed" type="QString" value="409399419"/>
+                </Option>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" type="QString" value=""/>
+                    <Option name="properties"/>
+                    <Option name="type" type="QString" value="collection"/>
+                  </Option>
+                </data_defined_properties>
+                <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="@1@1" type="marker">
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option name="name" type="QString" value=""/>
+                      <Option name="properties"/>
+                      <Option name="type" type="QString" value="collection"/>
+                    </Option>
+                  </data_defined_properties>
+                  <layer class="SvgMarker" enabled="1" id="{4cc958cb-5c2c-4cd7-a503-a31de4868cb0}" locked="0" pass="0">
+                    <Option type="Map">
+                      <Option name="angle" type="QString" value="0"/>
+                      <Option name="color" type="QString" value="255,0,0,255,rgb:1,0,0,1"/>
+                      <Option name="fixedAspectRatio" type="QString" value="0"/>
+                      <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                      <Option name="name" type="QString" value="amenity/amenity_fountain.svg"/>
+                      <Option name="offset" type="QString" value="0,0"/>
+                      <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                      <Option name="offset_unit" type="QString" value="MM"/>
+                      <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                      <Option name="outline_width" type="QString" value="0"/>
+                      <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                      <Option name="outline_width_unit" type="QString" value="MM"/>
+                      <Option name="parameters"/>
+                      <Option name="scale_method" type="QString" value="diameter"/>
+                      <Option name="size" type="QString" value="2"/>
+                      <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                      <Option name="size_unit" type="QString" value="MM"/>
+                      <Option name="vertical_anchor_point" type="QString" value="1"/>
+                    </Option>
+                    <data_defined_properties>
+                      <Option type="Map">
+                        <Option name="name" type="QString" value=""/>
+                        <Option name="properties"/>
+                        <Option name="type" type="QString" value="collection"/>
+                      </Option>
+                    </data_defined_properties>
+                  </layer>
+                </symbol>
+              </layer>
+            </symbol>
           </symbols>
-          <rotation/>
-          <sizescale/>
           <data-defined-properties>
             <Option type="Map">
               <Option name="name" type="QString" value=""/>
@@ -60941,7 +61030,7 @@ def my_form_open(dialog, layer, feature):
       <properties name="SelectionColorRedPart" type="int">255</properties>
     </properties>
     <properties name="Layouts">
-      <properties name="lastLayoutExportDir" type="QString">C:/Temp</properties>
+      <properties name="lastLayoutExportDir" type="QString">C:/Temp/geotiff-50-2.tif</properties>
     </properties>
     <properties name="Legend">
       <properties name="filterByMap" type="bool">false</properties>
@@ -61077,116 +61166,96 @@ def my_form_open(dialog, layer, feature):
   </dataDefinedServerProperties>
   <visibility-presets>
     <visibility-preset has-checked-group-info="1" has-expanded-info="1" name="EditingView">
-      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="0"/>
-      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
-      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
-      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
-      <layer expanded="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" style="default" visible="1"/>
-      <expanded-legend-nodes id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b"/>
-      <layer expanded="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" style="default" visible="1"/>
-      <expanded-legend-nodes id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3"/>
+      <layer expanded="0" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" style="default" visible="1"/>
+      <expanded-legend-nodes id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c"/>
       <layer expanded="1" id="residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5" style="default" visible="1"/>
       <expanded-legend-nodes id="residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5"/>
-      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="0"/>
-      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
-      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="0"/>
-      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
-      <layer expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" style="default" visible="1"/>
-      <expanded-legend-nodes id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1"/>
-      <layer expanded="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" style="default" visible="1"/>
-      <expanded-legend-nodes id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3"/>
-      <layer expanded="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" style="default" visible="1"/>
-      <expanded-legend-nodes id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da"/>
-      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="1"/>
-      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
       <layer expanded="1" id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb" style="default" visible="1"/>
       <expanded-legend-nodes id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb"/>
       <layer expanded="1" id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d" style="default" visible="1"/>
       <expanded-legend-nodes id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d"/>
-      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
-      <layer expanded="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" style="default" visible="1"/>
-      <expanded-legend-nodes id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7"/>
-      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
-      <layer expanded="1" id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba"/>
-      <layer expanded="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" style="default" visible="1"/>
-      <expanded-legend-nodes id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c"/>
-      <layer expanded="0" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" style="default" visible="1"/>
-      <expanded-legend-nodes id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c"/>
-      <layer expanded="1" id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" style="default" visible="1"/>
-      <expanded-legend-nodes id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423"/>
-      <layer expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" style="default" visible="0"/>
-      <expanded-legend-nodes id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212"/>
-      <layer expanded="0" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" style="default" visible="1"/>
-      <expanded-legend-nodes id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47"/>
-      <layer expanded="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" style="default" visible="1"/>
-      <expanded-legend-nodes id="building_fa576c32_d510_48d6_8be4_79a335bc3a46"/>
-      <layer expanded="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" style="default" visible="1"/>
-      <expanded-legend-nodes id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c"/>
-      <layer expanded="0" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="1"/>
-      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
-      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="1"/>
-      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
       <layer expanded="1" id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c" style="default" visible="1"/>
       <expanded-legend-nodes id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c"/>
+      <layer expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" style="default" visible="1"/>
+      <expanded-legend-nodes id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1"/>
+      <layer expanded="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" style="default" visible="1"/>
+      <expanded-legend-nodes id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b"/>
       <layer expanded="1" id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650" style="default" visible="1"/>
       <expanded-legend-nodes id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650"/>
-      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="0"/>
-      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
+      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="0"/>
+      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
+      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
+      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
+      <layer expanded="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" style="default" visible="1"/>
+      <expanded-legend-nodes id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c"/>
+      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="0"/>
+      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
+      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
+      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
+      <layer expanded="0" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" style="default" visible="1"/>
+      <expanded-legend-nodes id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47"/>
       <layer expanded="0" id="water_b3dffc51_1f0e_419f_8b80_469a0514e606" style="default" visible="1"/>
       <expanded-legend-nodes id="water_b3dffc51_1f0e_419f_8b80_469a0514e606"/>
+      <layer expanded="1" id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_2e45cb01_1167_4f42_a62d_7079febe03ba"/>
+      <layer expanded="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" style="default" visible="1"/>
+      <expanded-legend-nodes id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c"/>
+      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="0"/>
+      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
+      <layer expanded="0" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="1"/>
+      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
+      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="0"/>
+      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
+      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="1"/>
+      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
+      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="1"/>
+      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
+      <layer expanded="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" style="default" visible="1"/>
+      <expanded-legend-nodes id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7"/>
+      <layer expanded="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" style="default" visible="1"/>
+      <expanded-legend-nodes id="building_fa576c32_d510_48d6_8be4_79a335bc3a46"/>
+      <layer expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" style="default" visible="0"/>
+      <expanded-legend-nodes id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212"/>
+      <layer expanded="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" style="default" visible="1"/>
+      <expanded-legend-nodes id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da"/>
       <layer expanded="1" id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6" style="default" visible="1"/>
       <expanded-legend-nodes id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6"/>
+      <layer expanded="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" style="default" visible="1"/>
+      <expanded-legend-nodes id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3"/>
+      <layer expanded="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" style="default" visible="1"/>
+      <expanded-legend-nodes id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3"/>
       <layer expanded="1" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" style="default" visible="0"/>
       <expanded-legend-nodes id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806"/>
+      <layer expanded="1" id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" style="default" visible="1"/>
+      <expanded-legend-nodes id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423"/>
       <checked-group-nodes>
-        <checked-group-node id="Buildings"/>
         <checked-group-node id="Water"/>
-        <checked-group-node id="Annotation"/>
+        <checked-group-node id="Buildings"/>
         <checked-group-node id="Land"/>
         <checked-group-node id="Transport"/>
+        <checked-group-node id="Annotation"/>
       </checked-group-nodes>
       <expanded-group-nodes>
-        <expanded-group-node id="Infrastructure"/>
-        <expanded-group-node id="Buildings"/>
         <expanded-group-node id="Water"/>
-        <expanded-group-node id="Structures"/>
-        <expanded-group-node id="Annotation"/>
+        <expanded-group-node id="Buildings"/>
+        <expanded-group-node id="Infrastructure"/>
         <expanded-group-node id="Land"/>
         <expanded-group-node id="Transport"/>
+        <expanded-group-node id="Annotation"/>
+        <expanded-group-node id="Structures"/>
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-checked-group-info="1" has-expanded-info="1" name="Map3View">
-      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="0"/>
-      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
-      <layer expanded="1" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" style="default" visible="0"/>
-      <expanded-legend-nodes id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa"/>
+      <layer expanded="1" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7"/>
+      <layer expanded="1" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c"/>
       <layer expanded="1" id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138" style="default" visible="0"/>
       <expanded-legend-nodes id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138"/>
-      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
-      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
-      <layer expanded="1" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" style="default" visible="0"/>
-      <checked-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571">
-        <checked-legend-node id="{78af42d5-f17b-4f2b-a16b-3e09e3cbac21}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571"/>
-      <layer expanded="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" style="default" visible="0"/>
-      <checked-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089">
-        <checked-legend-node id="{b4d069c6-405f-4b96-8fb8-4a40f0d07169}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089"/>
-      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="0"/>
-      <checked-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa">
-        <checked-legend-node id="{d0b2692b-d58d-4f4f-92e8-2eff10d8c55f}"/>
-        <checked-legend-node id="{441d0f37-9044-4311-8c8e-3c0e651c1d7d}"/>
-        <checked-legend-node id="{02f4ba59-6f0b-447d-95a2-7c2e0e4b62fa}"/>
-        <checked-legend-node id="{1f58e040-ea67-4766-9b98-eaf06294a9e2}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
-      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="0"/>
-      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
+      <layer expanded="1" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c"/>
       <layer expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" style="default" visible="0"/>
       <expanded-legend-nodes id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1"/>
       <layer expanded="1" id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943" style="default" visible="0"/>
@@ -61194,57 +61263,77 @@ def my_form_open(dialog, layer, feature):
         <checked-legend-node id="{78af42d5-f17b-4f2b-a16b-3e09e3cbac21}"/>
       </checked-legend-nodes>
       <expanded-legend-nodes id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943"/>
-      <layer expanded="1" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c"/>
-      <layer expanded="1" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" style="default" visible="0"/>
-      <checked-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345">
-        <checked-legend-node id="{7d63828f-9b2f-4b35-bd29-6cadabda2a6d}"/>
-        <checked-legend-node id="{523f39ab-17fe-4200-a9ae-b685fb83198e}"/>
-        <checked-legend-node id="{58fb7ab9-4b41-45f5-9b8a-6aea29540479}"/>
-        <checked-legend-node id="{cf60ab16-184b-4832-bfe2-f63eb1b70715}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345"/>
-      <layer expanded="1" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" style="default" visible="0"/>
-      <expanded-legend-nodes id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e"/>
-      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="0"/>
-      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
-      <layer expanded="1" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce"/>
-      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
-      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
+      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="0"/>
+      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
+      <layer expanded="1" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef"/>
+      <layer expanded="1" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76"/>
       <layer expanded="1" id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292" style="default" visible="0"/>
       <expanded-legend-nodes id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292"/>
+      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
+      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
+      <layer expanded="1" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" style="default" visible="0"/>
+      <checked-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345">
+        <checked-legend-node id="{58fb7ab9-4b41-45f5-9b8a-6aea29540479}"/>
+        <checked-legend-node id="{7d63828f-9b2f-4b35-bd29-6cadabda2a6d}"/>
+        <checked-legend-node id="{cf60ab16-184b-4832-bfe2-f63eb1b70715}"/>
+        <checked-legend-node id="{523f39ab-17fe-4200-a9ae-b685fb83198e}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345"/>
+      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="0"/>
+      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
+      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
+      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
+      <layer expanded="1" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" style="default" visible="0"/>
+      <expanded-legend-nodes id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa"/>
+      <layer expanded="1" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470"/>
+      <layer expanded="1" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" style="default" visible="0"/>
+      <checked-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571">
+        <checked-legend-node id="{78af42d5-f17b-4f2b-a16b-3e09e3cbac21}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571"/>
+      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="0"/>
+      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
+      <layer expanded="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="0"/>
+      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
+      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="0"/>
+      <checked-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa">
+        <checked-legend-node id="{d0b2692b-d58d-4f4f-92e8-2eff10d8c55f}"/>
+        <checked-legend-node id="{02f4ba59-6f0b-447d-95a2-7c2e0e4b62fa}"/>
+        <checked-legend-node id="{441d0f37-9044-4311-8c8e-3c0e651c1d7d}"/>
+        <checked-legend-node id="{1f58e040-ea67-4766-9b98-eaf06294a9e2}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
+      <layer expanded="1" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" style="default" visible="1"/>
+      <expanded-legend-nodes id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd"/>
+      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="0"/>
+      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
+      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="0"/>
+      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
       <layer expanded="0" id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c" style="default" visible="0"/>
       <checked-legend-nodes id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c">
-        <checked-legend-node id="{837ee550-8936-4b0c-ba7e-4d650a9cf51f}"/>
-        <checked-legend-node id="{e7481293-d581-4e52-a069-48acb12deeb9}"/>
         <checked-legend-node id="{27972abd-a2a0-4d36-aeea-7071c7cc3fe6}"/>
+        <checked-legend-node id="{e7481293-d581-4e52-a069-48acb12deeb9}"/>
+        <checked-legend-node id="{837ee550-8936-4b0c-ba7e-4d650a9cf51f}"/>
       </checked-legend-nodes>
       <expanded-legend-nodes id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c"/>
       <layer expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" style="default" visible="0"/>
       <expanded-legend-nodes id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212"/>
-      <layer expanded="1" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470"/>
-      <layer expanded="1" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef"/>
-      <layer expanded="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="0"/>
-      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
-      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="0"/>
-      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
-      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="0"/>
-      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
-      <layer expanded="1" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76"/>
-      <layer expanded="1" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7"/>
-      <layer expanded="1" id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd" style="default" visible="1"/>
-      <expanded-legend-nodes id="Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd"/>
+      <layer expanded="1" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" style="default" visible="0"/>
+      <expanded-legend-nodes id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e"/>
+      <layer expanded="1" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" style="default" visible="0"/>
+      <expanded-legend-nodes id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce"/>
+      <layer expanded="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" style="default" visible="0"/>
+      <checked-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089">
+        <checked-legend-node id="{b4d069c6-405f-4b96-8fb8-4a40f0d07169}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089"/>
       <layer expanded="0" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" style="default" visible="0"/>
       <expanded-legend-nodes id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806"/>
-      <layer expanded="1" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" style="default" visible="0"/>
-      <expanded-legend-nodes id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c"/>
       <checked-group-nodes>
         <checked-group-node id="Land/topographic-data"/>
         <checked-group-node id="Annotation"/>
@@ -61255,36 +61344,22 @@ def my_form_open(dialog, layer, feature):
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-checked-group-info="1" has-expanded-info="1" name="Map5View">
-      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="1"/>
-      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
-      <layer expanded="1" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" style="default" visible="1"/>
-      <expanded-legend-nodes id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa"/>
+      <layer expanded="1" id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480" style="default" visible="1"/>
+      <expanded-legend-nodes id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480"/>
+      <layer expanded="1" id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a" style="default" visible="1"/>
+      <expanded-legend-nodes id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a"/>
+      <layer expanded="1" id="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b" style="default" visible="1"/>
+      <expanded-legend-nodes id="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b"/>
+      <layer expanded="1" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7"/>
+      <layer expanded="1" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c"/>
+      <layer expanded="1" id="nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547" style="default" visible="1"/>
+      <expanded-legend-nodes id="nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547"/>
       <layer expanded="1" id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138" style="default" visible="1"/>
       <expanded-legend-nodes id="road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138"/>
-      <layer expanded="1" id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13" style="default" visible="1"/>
-      <expanded-legend-nodes id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13"/>
-      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
-      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
-      <layer expanded="1" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" style="default" visible="1"/>
-      <checked-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571">
-        <checked-legend-node id="{78af42d5-f17b-4f2b-a16b-3e09e3cbac21}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571"/>
-      <layer expanded="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" style="default" visible="1"/>
-      <checked-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089">
-        <checked-legend-node id="{b4d069c6-405f-4b96-8fb8-4a40f0d07169}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089"/>
-      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="1"/>
-      <checked-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa">
-        <checked-legend-node id="{d0b2692b-d58d-4f4f-92e8-2eff10d8c55f}"/>
-        <checked-legend-node id="{441d0f37-9044-4311-8c8e-3c0e651c1d7d}"/>
-        <checked-legend-node id="{02f4ba59-6f0b-447d-95a2-7c2e0e4b62fa}"/>
-        <checked-legend-node id="{1f58e040-ea67-4766-9b98-eaf06294a9e2}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
-      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="1"/>
-      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
+      <layer expanded="1" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c"/>
       <layer expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" style="default" visible="1"/>
       <expanded-legend-nodes id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1"/>
       <layer expanded="1" id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943" style="default" visible="1"/>
@@ -61292,146 +61367,160 @@ def my_form_open(dialog, layer, feature):
         <checked-legend-node id="{78af42d5-f17b-4f2b-a16b-3e09e3cbac21}"/>
       </checked-legend-nodes>
       <expanded-legend-nodes id="bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943"/>
-      <layer expanded="1" id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c"/>
-      <layer expanded="1" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" style="default" visible="1"/>
-      <checked-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345">
-        <checked-legend-node id="{7d63828f-9b2f-4b35-bd29-6cadabda2a6d}"/>
-        <checked-legend-node id="{523f39ab-17fe-4200-a9ae-b685fb83198e}"/>
-        <checked-legend-node id="{58fb7ab9-4b41-45f5-9b8a-6aea29540479}"/>
-        <checked-legend-node id="{cf60ab16-184b-4832-bfe2-f63eb1b70715}"/>
-      </checked-legend-nodes>
-      <expanded-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345"/>
-      <layer expanded="1" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" style="default" visible="1"/>
-      <expanded-legend-nodes id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9"/>
-      <layer expanded="1" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" style="default" visible="1"/>
-      <expanded-legend-nodes id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e"/>
-      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="1"/>
-      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
-      <layer expanded="1" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce"/>
-      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
-      <layer expanded="0" id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4" style="default" visible="1"/>
-      <expanded-legend-nodes id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4"/>
-      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
+      <layer expanded="0" id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" style="default" visible="1"/>
+      <expanded-legend-nodes id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff"/>
+      <layer expanded="1" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef"/>
       <layer expanded="1" id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292" style="default" visible="1"/>
       <expanded-legend-nodes id="road_line_d8e14cba_e85e_46ca_b187_f4656945c292"/>
-      <layer expanded="1" id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" style="default" visible="1"/>
-      <expanded-legend-nodes id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423"/>
-      <layer expanded="1" id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a" style="default" visible="1"/>
-      <expanded-legend-nodes id="residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a"/>
+      <layer expanded="1" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76"/>
+      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="1"/>
+      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
+      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
+      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
+      <layer expanded="1" id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" style="default" visible="1"/>
+      <expanded-legend-nodes id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46"/>
+      <layer expanded="1" id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345" style="default" visible="1"/>
+      <checked-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345">
+        <checked-legend-node id="{58fb7ab9-4b41-45f5-9b8a-6aea29540479}"/>
+        <checked-legend-node id="{7d63828f-9b2f-4b35-bd29-6cadabda2a6d}"/>
+        <checked-legend-node id="{cf60ab16-184b-4832-bfe2-f63eb1b70715}"/>
+        <checked-legend-node id="{523f39ab-17fe-4200-a9ae-b685fb83198e}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345"/>
+      <layer expanded="1" id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083" style="default" visible="1"/>
+      <expanded-legend-nodes id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083"/>
+      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="1"/>
+      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
+      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
+      <layer expanded="1" id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9" style="default" visible="1"/>
+      <expanded-legend-nodes id="water_map_c8755a27_95f3_41b9_a721_daa07b2230e9"/>
+      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
+      <layer expanded="1" id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa" style="default" visible="1"/>
+      <expanded-legend-nodes id="building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa"/>
+      <layer expanded="1" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470"/>
+      <layer expanded="1" id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571" style="default" visible="1"/>
+      <checked-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571">
+        <checked-legend-node id="{78af42d5-f17b-4f2b-a16b-3e09e3cbac21}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571"/>
+      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="1"/>
+      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
+      <layer expanded="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" style="default" visible="1"/>
+      <expanded-legend-nodes id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06"/>
+      <layer expanded="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="1"/>
+      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
+      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="1"/>
+      <checked-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa">
+        <checked-legend-node id="{d0b2692b-d58d-4f4f-92e8-2eff10d8c55f}"/>
+        <checked-legend-node id="{02f4ba59-6f0b-447d-95a2-7c2e0e4b62fa}"/>
+        <checked-legend-node id="{441d0f37-9044-4311-8c8e-3c0e651c1d7d}"/>
+        <checked-legend-node id="{1f58e040-ea67-4766-9b98-eaf06294a9e2}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
+      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="1"/>
+      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
+      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="1"/>
+      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
       <layer expanded="0" id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c" style="default" visible="1"/>
       <checked-legend-nodes id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c">
-        <checked-legend-node id="{837ee550-8936-4b0c-ba7e-4d650a9cf51f}"/>
-        <checked-legend-node id="{e7481293-d581-4e52-a069-48acb12deeb9}"/>
         <checked-legend-node id="{27972abd-a2a0-4d36-aeea-7071c7cc3fe6}"/>
+        <checked-legend-node id="{e7481293-d581-4e52-a069-48acb12deeb9}"/>
+        <checked-legend-node id="{837ee550-8936-4b0c-ba7e-4d650a9cf51f}"/>
       </checked-legend-nodes>
       <expanded-legend-nodes id="track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c"/>
       <layer expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" style="default" visible="0"/>
       <expanded-legend-nodes id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212"/>
-      <layer expanded="1" id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470"/>
-      <layer expanded="1" id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46" style="default" visible="1"/>
-      <expanded-legend-nodes id="Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46"/>
-      <layer expanded="1" id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef"/>
-      <layer expanded="1" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="1"/>
-      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
-      <layer expanded="1" id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083" style="default" visible="1"/>
-      <expanded-legend-nodes id="building_9c85ba90_42e9_4112_9b6b_7ba9974ce083"/>
-      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="1"/>
-      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
-      <layer expanded="1" id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480" style="default" visible="1"/>
-      <expanded-legend-nodes id="tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480"/>
-      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="1"/>
-      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
-      <layer expanded="1" id="nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547" style="default" visible="1"/>
-      <expanded-legend-nodes id="nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547"/>
-      <layer expanded="1" id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76"/>
-      <layer expanded="1" id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7"/>
-      <layer expanded="0" id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" style="default" visible="1"/>
-      <expanded-legend-nodes id="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff"/>
-      <layer expanded="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" style="default" visible="1"/>
-      <expanded-legend-nodes id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06"/>
+      <layer expanded="1" id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e" style="default" visible="1"/>
+      <expanded-legend-nodes id="railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e"/>
+      <layer expanded="1" id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce" style="default" visible="1"/>
+      <expanded-legend-nodes id="road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce"/>
+      <layer expanded="1" id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13" style="default" visible="1"/>
+      <expanded-legend-nodes id="water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13"/>
+      <layer expanded="0" id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089" style="default" visible="1"/>
+      <checked-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089">
+        <checked-legend-node id="{b4d069c6-405f-4b96-8fb8-4a40f0d07169}"/>
+      </checked-legend-nodes>
+      <expanded-legend-nodes id="bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089"/>
+      <layer expanded="0" id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4" style="default" visible="1"/>
+      <expanded-legend-nodes id="DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4"/>
       <layer expanded="0" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" style="default" visible="0"/>
       <expanded-legend-nodes id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806"/>
-      <layer expanded="1" id="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b" style="default" visible="1"/>
-      <expanded-legend-nodes id="nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b"/>
-      <layer expanded="1" id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c" style="default" visible="1"/>
-      <expanded-legend-nodes id="road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c"/>
+      <layer expanded="1" id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" style="default" visible="1"/>
+      <expanded-legend-nodes id="contour_29b7338d_32d7_4edc_89f1_356ed01fb423"/>
       <checked-group-nodes>
         <checked-group-node id="Water"/>
-        <checked-group-node id="Transport map"/>
         <checked-group-node id="Elevation map"/>
         <checked-group-node id="Land"/>
-        <checked-group-node id="Structure map"/>
         <checked-group-node id="Transport"/>
+        <checked-group-node id="Transport map"/>
+        <checked-group-node id="Structure map"/>
       </checked-group-nodes>
       <expanded-group-nodes>
         <expanded-group-node id="Annotation"/>
       </expanded-group-nodes>
     </visibility-preset>
     <visibility-preset has-checked-group-info="1" has-expanded-info="1" name="MapView">
-      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="0"/>
-      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
-      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
-      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
-      <layer expanded="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" style="default" visible="0"/>
-      <expanded-legend-nodes id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b"/>
-      <layer expanded="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" style="default" visible="0"/>
-      <expanded-legend-nodes id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3"/>
-      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="0"/>
-      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
-      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="0"/>
-      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
-      <layer expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" style="default" visible="0"/>
-      <expanded-legend-nodes id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1"/>
-      <layer expanded="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" style="default" visible="0"/>
-      <expanded-legend-nodes id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3"/>
-      <layer expanded="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" style="default" visible="0"/>
-      <expanded-legend-nodes id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da"/>
-      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="0"/>
-      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
+      <layer expanded="1" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" style="default" visible="0"/>
+      <expanded-legend-nodes id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c"/>
       <layer expanded="1" id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb" style="default" visible="0"/>
       <expanded-legend-nodes id="building_point_cd12cedd_4c21_4278_a480_43895fa50deb"/>
       <layer expanded="1" id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d" style="default" visible="0"/>
       <expanded-legend-nodes id="waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d"/>
-      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
-      <layer expanded="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" style="default" visible="0"/>
-      <expanded-legend-nodes id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7"/>
-      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
-      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
-      <layer expanded="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" style="default" visible="0"/>
-      <expanded-legend-nodes id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c"/>
-      <layer expanded="1" id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c" style="default" visible="0"/>
-      <expanded-legend-nodes id="vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c"/>
-      <layer expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" style="default" visible="0"/>
-      <expanded-legend-nodes id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212"/>
-      <layer expanded="0" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" style="default" visible="0"/>
-      <expanded-legend-nodes id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47"/>
-      <layer expanded="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" style="default" visible="0"/>
-      <expanded-legend-nodes id="building_fa576c32_d510_48d6_8be4_79a335bc3a46"/>
-      <layer expanded="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" style="default" visible="0"/>
-      <expanded-legend-nodes id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c"/>
-      <layer expanded="0" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="0"/>
-      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
-      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="0"/>
-      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
       <layer expanded="1" id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c" style="default" visible="0"/>
       <expanded-legend-nodes id="coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c"/>
+      <layer expanded="1" id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1" style="default" visible="0"/>
+      <expanded-legend-nodes id="island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1"/>
+      <layer expanded="1" id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b" style="default" visible="0"/>
+      <expanded-legend-nodes id="place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b"/>
       <layer expanded="1" id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650" style="default" visible="0"/>
       <expanded-legend-nodes id="water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650"/>
-      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="0"/>
-      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
+      <layer expanded="1" id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7" style="default" visible="0"/>
+      <expanded-legend-nodes id="runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7"/>
+      <layer expanded="1" id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919" style="default" visible="0"/>
+      <expanded-legend-nodes id="structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919"/>
+      <layer expanded="1" id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" style="default" visible="0"/>
+      <expanded-legend-nodes id="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c"/>
+      <layer expanded="1" id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9" style="default" visible="0"/>
+      <expanded-legend-nodes id="trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9"/>
+      <layer expanded="1" id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2"/>
+      <layer expanded="1" id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724" style="default" visible="0"/>
+      <expanded-legend-nodes id="physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724"/>
+      <layer expanded="0" id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47" style="default" visible="0"/>
+      <expanded-legend-nodes id="vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47"/>
       <layer expanded="0" id="water_b3dffc51_1f0e_419f_8b80_469a0514e606" style="default" visible="0"/>
       <expanded-legend-nodes id="water_b3dffc51_1f0e_419f_8b80_469a0514e606"/>
+      <layer expanded="1" id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c" style="default" visible="0"/>
+      <expanded-legend-nodes id="waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c"/>
+      <layer expanded="1" id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd" style="default" visible="0"/>
+      <expanded-legend-nodes id="relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd"/>
+      <layer expanded="0" id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e" style="default" visible="0"/>
+      <expanded-legend-nodes id="landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e"/>
+      <layer expanded="1" id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa" style="default" visible="0"/>
+      <expanded-legend-nodes id="relief_line_2ea69e11_4219_4780_b770_5285273ebbfa"/>
+      <layer expanded="1" id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9" style="default" visible="0"/>
+      <expanded-legend-nodes id="fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9"/>
+      <layer expanded="1" id="coastline_e4eb6544_8961_407f_861b_9557608163ef" style="default" visible="0"/>
+      <expanded-legend-nodes id="coastline_e4eb6544_8961_407f_861b_9557608163ef"/>
+      <layer expanded="1" id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7" style="default" visible="0"/>
+      <expanded-legend-nodes id="geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7"/>
+      <layer expanded="1" id="building_fa576c32_d510_48d6_8be4_79a335bc3a46" style="default" visible="0"/>
+      <expanded-legend-nodes id="building_fa576c32_d510_48d6_8be4_79a335bc3a46"/>
+      <layer expanded="1" id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212" style="default" visible="0"/>
+      <expanded-legend-nodes id="structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212"/>
+      <layer expanded="1" id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da" style="default" visible="0"/>
+      <expanded-legend-nodes id="bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da"/>
       <layer expanded="1" id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6" style="default" visible="0"/>
       <expanded-legend-nodes id="airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6"/>
+      <layer expanded="1" id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3" style="default" visible="0"/>
+      <expanded-legend-nodes id="tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3"/>
+      <layer expanded="1" id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3" style="default" visible="0"/>
+      <expanded-legend-nodes id="railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3"/>
       <layer expanded="1" id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806" style="default" visible="0"/>
       <expanded-legend-nodes id="structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806"/>
       <checked-group-nodes/>
@@ -67078,7 +67167,7 @@ def my_form_open(dialog, layer, feature):
           </customproperties>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map5View" frame="true" frameJoinStyle="miter" groupUuid="" id="Map 2" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.4,mm" position="207.947,75.1608,mm" positionLock="false" positionOnPage="207.947,75.1608,mm" referencePoint="0" size="479.621,719.43,mm" templateUuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" type="65639" uuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" visibility="1" zValue="2">
+      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map5View" frame="true" frameJoinStyle="miter" groupUuid="" id="Map 2" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.4,mm" position="207.947,75.1608,mm" positionLock="false" positionOnPage="207.947,75.1608,mm" referencePoint="0" size="479.621,719.421,mm" templateUuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" type="65639" uuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" visibility="1" zValue="2">
         <FrameColor alpha="255" blue="214" green="164" red="55"/>
         <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
         <LayoutObject>
@@ -67093,7 +67182,7 @@ def my_form_open(dialog, layer, feature):
             <Option/>
           </customproperties>
         </LayoutObject>
-        <Extent xmax="1372000.1000000003259629" xmin="1347999.99900000030174851" ymax="5226000.09999999962747097" ymin="5189999.99899999983608723"/>
+        <Extent xmax="1372000.14704099996015429" xmin="1347998.95295900013297796" ymax="5226000.17056042142212391" ymin="5189998.92943957820534706"/>
         <crs>
           <spatialrefsys nativeFormat="Wkt">
             <wkt>PROJCRS["NZGD2000 / New Zealand Transverse Mercator 2000",BASEGEOGCRS["NZGD2000",DATUM["New Zealand Geodetic Datum 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4167]],CONVERSION["New Zealand Transverse Mercator 2000",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",173,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1600000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["New Zealand - North Island, South Island, Stewart Island - onshore."],BBOX[-47.33,166.37,-34.1,178.63]],ID["EPSG",2193]]</wkt>
@@ -68926,8 +69015,350 @@ def my_form_open(dialog, layer, feature):
           <Option name="pdfAppendGeoreference" type="int" value="1"/>
           <Option name="pdfCreateGeoPdf" type="int" value="0"/>
           <Option name="pdfDisableRasterTiles" type="int" value="0"/>
-          <Option name="pdfExportThemes" type="QString" value=""/>
-          <Option name="pdfGroupOrder"/>
+          <Option name="pdfExportThemes" type="invalid"/>
+          <Option name="pdfGroupOrder" type="invalid"/>
+          <Option name="pdfIncludeMetadata" type="int" value="1"/>
+          <Option name="pdfLayerOrder" type="QString" value="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c~~~geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7~~~nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c~~~road_line_d8e14cba_e85e_46ca_b187_f4656945c292~~~road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76~~~building_point_cd12cedd_4c21_4278_a480_43895fa50deb~~~building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa~~~building_fa576c32_d510_48d6_8be4_79a335bc3a46~~~building_9c85ba90_42e9_4112_9b6b_7ba9974ce083~~~residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5~~~trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9~~~relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd~~~relief_line_2ea69e11_4219_4780_b770_5285273ebbfa~~~contour_29b7338d_32d7_4edc_89f1_356ed01fb423~~~tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480~~~transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0~~~railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7~~~track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae~~~tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06~~~bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da~~~ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b~~~railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3~~~railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e~~~road_line_2e45cb01_1167_4f42_a62d_7079febe03ba~~~runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7~~~airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6~~~water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13~~~physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724~~~physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2~~~residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a~~~structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806~~~structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212~~~structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919~~~tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3~~~place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b~~~landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4~~~coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c~~~fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9~~~landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e~~~vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47~~~vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff~~~vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c~~~vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06~~~vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010~~~landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26~~~water_point_6846f50c_9a60_48c1_8295_44887c4ca863~~~coastline_e4eb6544_8961_407f_861b_9557608163ef~~~water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650~~~waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c~~~island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1~~~waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d~~~waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0~~~marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d~~~water_b3dffc51_1f0e_419f_8b80_469a0514e606~~~water_588dc294_2511_4021_b360_d60dd3af4ca4~~~structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345~~~_a1dfc037_64ce_4afb_9748_3661da4f7769~~~track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c~~~road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138~~~road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef~~~road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470~~~road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c~~~road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c~~~road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce~~~road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7~~~bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571~~~bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089~~~bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943~~~water_map_c8755a27_95f3_41b9_a721_daa07b2230e9~~~DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4~~~Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46~~~Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd~~~water_map_85e508b5_dac4_4fab_85da_3ac08b1b3b04~~~nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b~~~landuse_38dca51b_4325_41cf_afe2_b4594fe23a71~~~nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547~~~_358c7d1f_5f24_4c83_a42b_ca9a0e87623f"/>
+          <Option name="pdfLosslessImages" type="int" value="1"/>
+          <Option name="pdfSimplify" type="int" value="1"/>
+          <Option name="pdfTextFormat" type="int" value="0"/>
+          <Option name="pdfUseLayerTreeConfig" type="int" value="0"/>
+          <Option name="singleFile" type="bool" value="true"/>
+          <Option name="variableNames" type="StringList">
+            <Option type="QString" value="edition_reference"/>
+            <Option type="QString" value="example_class"/>
+            <Option type="QString" value="example_x"/>
+            <Option type="QString" value="example_y"/>
+            <Option type="QString" value="gm_degrees"/>
+            <Option type="QString" value="gm_mils"/>
+            <Option type="QString" value="gm_rate_years"/>
+            <Option type="QString" value="gm_year"/>
+            <Option type="QString" value="new_variable"/>
+            <Option type="QString" value="sheet_code"/>
+          </Option>
+          <Option name="variableValues" type="StringList">
+            <Option type="QString" value="Edition 1.04 Published 2026"/>
+            <Option type="QString" value="▲ Fancy Name"/>
+            <Option type="QString" value="1234567"/>
+            <Option type="QString" value="5678901"/>
+            <Option type="QString" value="00½"/>
+            <Option type="QString" value="000"/>
+            <Option type="QString" value="0"/>
+            <Option type="QString" value="0000"/>
+            <Option type="QString" value=""/>
+            <Option type="QString" value="BW15"/>
+          </Option>
+        </Option>
+      </customproperties>
+      <Atlas coverageLayer="" enabled="0" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" hideCoverage="0" pageNameExpression="" sortFeatures="0"/>
+    </Layout>
+    <Layout name="geotiff-50" printResolution="300" units="mm" worldFileMap="{b68a508f-03b3-4108-9213-c9b30f2909ef}">
+      <Snapper snapToGrid="0" snapToGuides="1" snapToItems="1" tolerance="5"/>
+      <Grid offsetUnits="mm" offsetX="0" offsetY="0" resUnits="mm" resolution="10"/>
+      <PageCollection>
+        <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="" type="fill">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <layer class="SimpleFill" enabled="1" id="{502fbb27-d46a-4358-b751-cd5a1ecbd3fc}" locked="0" pass="0">
+            <Option type="Map">
+              <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
+              <Option name="joinstyle" type="QString" value="miter"/>
+              <Option name="offset" type="QString" value="0,0"/>
+              <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="offset_unit" type="QString" value="MM"/>
+              <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+              <Option name="outline_style" type="QString" value="no"/>
+              <Option name="outline_width" type="QString" value="0.26"/>
+              <Option name="outline_width_unit" type="QString" value="MM"/>
+              <Option name="style" type="QString" value="solid"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem background="true" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="480,720,mm" templateUuid="{d8f1efa0-1275-4a26-9d42-052d81752349}" type="65638" uuid="{d8f1efa0-1275-4a26-9d42-052d81752349}" visibility="1" zValue="0">
+          <FrameColor alpha="255" blue="0" green="0" red="0"/>
+          <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties>
+              <Option/>
+            </customproperties>
+          </LayoutObject>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" id="{b040ca2d-4ce3-4bbe-bc81-8f5b6555886a}" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
+                <Option name="joinstyle" type="QString" value="miter"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem background="false" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map5View" frame="true" frameJoinStyle="miter" groupUuid="" id="Map 2" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.4,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="480,720,mm" templateUuid="{b68a508f-03b3-4108-9213-c9b30f2909ef}" type="65639" uuid="{b68a508f-03b3-4108-9213-c9b30f2909ef}" visibility="1" zValue="2">
+        <FrameColor alpha="255" blue="255" green="158" red="0"/>
+        <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </LayoutObject>
+        <Extent xmax="1371999.78236241219565272" xmin="1347999.78236241219565272" ymax="5225994.87128845881670713" ymin="5189994.87130872998386621"/>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["NZGD2000 / New Zealand Transverse Mercator 2000",BASEGEOGCRS["NZGD2000",DATUM["New Zealand Geodetic Datum 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4167]],CONVERSION["New Zealand Transverse Mercator 2000",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",173,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1600000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["New Zealand - North Island, South Island, Stewart Island - onshore."],BBOX[-47.33,166.37,-34.1,178.63]],ID["EPSG",2193]]</wkt>
+            <proj4>+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>177</srsid>
+            <srid>2193</srid>
+            <authid>EPSG:2193</authid>
+            <description>NZGD2000 / New Zealand Transverse Mercator 2000</description>
+            <projectionacronym>tmerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <LayerSet/>
+        <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
+        <labelBlockingItems/>
+        <atlasClippingSettings clippingType="1" enabled="0" forceLabelsInside="0" restrictLayers="0">
+          <layersToClip/>
+        </atlasClippingSettings>
+        <itemClippingSettings clipSource="" clippingType="1" enabled="1" forceLabelsInside="1"/>
+      </LayoutItem>
+      <customproperties>
+        <Option type="Map">
+          <Option name="atlasRasterFormat" type="QString" value="png"/>
+          <Option name="forceVector" type="int" value="0"/>
+          <Option name="imageAntialias" type="bool" value="true"/>
+          <Option name="imageCropMarginBottom" type="int" value="0"/>
+          <Option name="imageCropMarginLeft" type="int" value="0"/>
+          <Option name="imageCropMarginRight" type="int" value="0"/>
+          <Option name="imageCropMarginTop" type="int" value="0"/>
+          <Option name="imageCropToContents" type="bool" value="false"/>
+          <Option name="pdfAppendGeoreference" type="int" value="1"/>
+          <Option name="pdfCreateGeoPdf" type="int" value="0"/>
+          <Option name="pdfDisableRasterTiles" type="int" value="0"/>
+          <Option name="pdfExportThemes" type="invalid"/>
+          <Option name="pdfGroupOrder" type="invalid"/>
+          <Option name="pdfIncludeMetadata" type="int" value="1"/>
+          <Option name="pdfLayerOrder" type="QString" value="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c~~~geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7~~~nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c~~~road_line_d8e14cba_e85e_46ca_b187_f4656945c292~~~road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76~~~building_point_cd12cedd_4c21_4278_a480_43895fa50deb~~~building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa~~~building_fa576c32_d510_48d6_8be4_79a335bc3a46~~~building_9c85ba90_42e9_4112_9b6b_7ba9974ce083~~~residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5~~~trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9~~~relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd~~~relief_line_2ea69e11_4219_4780_b770_5285273ebbfa~~~contour_29b7338d_32d7_4edc_89f1_356ed01fb423~~~tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480~~~transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0~~~railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7~~~track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae~~~tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06~~~bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da~~~ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b~~~railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3~~~railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e~~~road_line_2e45cb01_1167_4f42_a62d_7079febe03ba~~~runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7~~~airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6~~~water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13~~~physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724~~~physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2~~~residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a~~~structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806~~~structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212~~~structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919~~~tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3~~~place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b~~~landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4~~~coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c~~~fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9~~~landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e~~~vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47~~~vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff~~~vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c~~~vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06~~~vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010~~~landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26~~~water_point_6846f50c_9a60_48c1_8295_44887c4ca863~~~coastline_e4eb6544_8961_407f_861b_9557608163ef~~~water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650~~~waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c~~~island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1~~~waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d~~~waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0~~~marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d~~~water_b3dffc51_1f0e_419f_8b80_469a0514e606~~~water_588dc294_2511_4021_b360_d60dd3af4ca4~~~structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345~~~_a1dfc037_64ce_4afb_9748_3661da4f7769~~~track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c~~~road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138~~~road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef~~~road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470~~~road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c~~~road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c~~~road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce~~~road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7~~~bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571~~~bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089~~~bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943~~~water_map_c8755a27_95f3_41b9_a721_daa07b2230e9~~~DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4~~~Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46~~~Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd~~~water_map_85e508b5_dac4_4fab_85da_3ac08b1b3b04~~~nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b~~~landuse_38dca51b_4325_41cf_afe2_b4594fe23a71~~~nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547~~~_358c7d1f_5f24_4c83_a42b_ca9a0e87623f"/>
+          <Option name="pdfLosslessImages" type="int" value="1"/>
+          <Option name="pdfSimplify" type="int" value="1"/>
+          <Option name="pdfTextFormat" type="int" value="0"/>
+          <Option name="pdfUseLayerTreeConfig" type="int" value="0"/>
+          <Option name="singleFile" type="bool" value="true"/>
+          <Option name="variableNames" type="StringList">
+            <Option type="QString" value="edition_reference"/>
+            <Option type="QString" value="example_class"/>
+            <Option type="QString" value="example_x"/>
+            <Option type="QString" value="example_y"/>
+            <Option type="QString" value="gm_degrees"/>
+            <Option type="QString" value="gm_mils"/>
+            <Option type="QString" value="gm_rate_years"/>
+            <Option type="QString" value="gm_year"/>
+            <Option type="QString" value="new_variable"/>
+            <Option type="QString" value="sheet_code"/>
+          </Option>
+          <Option name="variableValues" type="StringList">
+            <Option type="QString" value="Edition 1.04 Published 2026"/>
+            <Option type="QString" value="▲ Fancy Name"/>
+            <Option type="QString" value="1234567"/>
+            <Option type="QString" value="5678901"/>
+            <Option type="QString" value="00½"/>
+            <Option type="QString" value="000"/>
+            <Option type="QString" value="0"/>
+            <Option type="QString" value="0000"/>
+            <Option type="QString" value=""/>
+            <Option type="QString" value="BW15"/>
+          </Option>
+        </Option>
+      </customproperties>
+      <Atlas coverageLayer="" enabled="0" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" hideCoverage="0" pageNameExpression="" sortFeatures="0"/>
+    </Layout>
+    <Layout name="geotiff-50-A3" printResolution="300" units="mm" worldFileMap="{b68a508f-03b3-4108-9213-c9b30f2909ef}">
+      <Snapper snapToGrid="0" snapToGuides="1" snapToItems="1" tolerance="5"/>
+      <Grid offsetUnits="mm" offsetX="0" offsetY="0" resUnits="mm" resolution="10"/>
+      <PageCollection>
+        <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="" type="fill">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <layer class="SimpleFill" enabled="1" id="{502fbb27-d46a-4358-b751-cd5a1ecbd3fc}" locked="0" pass="0">
+            <Option type="Map">
+              <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
+              <Option name="joinstyle" type="QString" value="miter"/>
+              <Option name="offset" type="QString" value="0,0"/>
+              <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="offset_unit" type="QString" value="MM"/>
+              <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+              <Option name="outline_style" type="QString" value="no"/>
+              <Option name="outline_width" type="QString" value="0.26"/>
+              <Option name="outline_width_unit" type="QString" value="MM"/>
+              <Option name="style" type="QString" value="solid"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem background="true" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="420,297,mm" templateUuid="{d7c5b830-deef-4318-956a-a187d44f744f}" type="65638" uuid="{d7c5b830-deef-4318-956a-a187d44f744f}" visibility="1" zValue="0">
+          <FrameColor alpha="255" blue="0" green="0" red="0"/>
+          <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties>
+              <Option/>
+            </customproperties>
+          </LayoutObject>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer class="SimpleFill" enabled="1" id="{b040ca2d-4ce3-4bbe-bc81-8f5b6555886a}" locked="0" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
+                <Option name="joinstyle" type="QString" value="miter"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem background="false" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map5View" frame="true" frameJoinStyle="miter" groupUuid="" id="Map 2" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.4,mm" position="0.2,0.2,mm" positionLock="false" positionOnPage="0.2,0.2,mm" referencePoint="0" size="419.6,296.6,mm" templateUuid="{c65f28f8-51f3-413c-b90d-bb505dc7edd5}" type="65639" uuid="{c65f28f8-51f3-413c-b90d-bb505dc7edd5}" visibility="1" zValue="2">
+        <FrameColor alpha="255" blue="255" green="158" red="0"/>
+        <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </LayoutObject>
+        <Extent xmax="1380156.64125660923309624" xmin="1359176.64125660923309624" ymax="5193596.17400331236422062" ymin="5178766.17400331236422062"/>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["NZGD2000 / New Zealand Transverse Mercator 2000",BASEGEOGCRS["NZGD2000",DATUM["New Zealand Geodetic Datum 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4167]],CONVERSION["New Zealand Transverse Mercator 2000",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",173,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1600000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["New Zealand - North Island, South Island, Stewart Island - onshore."],BBOX[-47.33,166.37,-34.1,178.63]],ID["EPSG",2193]]</wkt>
+            <proj4>+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>177</srsid>
+            <srid>2193</srid>
+            <authid>EPSG:2193</authid>
+            <description>NZGD2000 / New Zealand Transverse Mercator 2000</description>
+            <projectionacronym>tmerc</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <LayerSet/>
+        <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
+        <labelBlockingItems/>
+        <atlasClippingSettings clippingType="1" enabled="0" forceLabelsInside="0" restrictLayers="0">
+          <layersToClip/>
+        </atlasClippingSettings>
+        <itemClippingSettings clipSource="" clippingType="1" enabled="1" forceLabelsInside="1"/>
+      </LayoutItem>
+      <customproperties>
+        <Option type="Map">
+          <Option name="atlasRasterFormat" type="QString" value="png"/>
+          <Option name="forceVector" type="int" value="0"/>
+          <Option name="imageAntialias" type="bool" value="true"/>
+          <Option name="imageCropMarginBottom" type="int" value="0"/>
+          <Option name="imageCropMarginLeft" type="int" value="0"/>
+          <Option name="imageCropMarginRight" type="int" value="0"/>
+          <Option name="imageCropMarginTop" type="int" value="0"/>
+          <Option name="imageCropToContents" type="bool" value="false"/>
+          <Option name="pdfAppendGeoreference" type="int" value="1"/>
+          <Option name="pdfCreateGeoPdf" type="int" value="0"/>
+          <Option name="pdfDisableRasterTiles" type="int" value="0"/>
+          <Option name="pdfExportThemes" type="invalid"/>
+          <Option name="pdfGroupOrder" type="invalid"/>
           <Option name="pdfIncludeMetadata" type="int" value="1"/>
           <Option name="pdfLayerOrder" type="QString" value="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c~~~geographic_name_809a82b7_b97d_4932_829c_45e5bad435c7~~~nz_topo50_map_sheet_0d772110_dda9_453f_9e6a_218a2275db6c~~~road_line_d8e14cba_e85e_46ca_b187_f4656945c292~~~road_line_map_a265f0db_8a98_432e_a9ae_f5408f649c76~~~building_point_cd12cedd_4c21_4278_a480_43895fa50deb~~~building_point_32c7ca7e_2fc9_4d78_a7b4_85b8b4b073aa~~~building_fa576c32_d510_48d6_8be4_79a335bc3a46~~~building_9c85ba90_42e9_4112_9b6b_7ba9974ce083~~~residential_area_08880334_a604_44f2_a1be_04aa6b5e14d5~~~trig_point_d355fb36_aa6b_405e_9b4c_34dd20021bf9~~~relief_point_c9fc7816_946e_4d98_a196_d0caeeeb51cd~~~relief_line_2ea69e11_4219_4780_b770_5285273ebbfa~~~contour_29b7338d_32d7_4edc_89f1_356ed01fb423~~~tree_locations_6eb342d4_6240_4657_aafb_5504d77bb480~~~transport_point_3298f4ef_5804_4e8e_b15a_567113ba0ee0~~~railway_station_d88c4e5d_be8a_41c2_935c_2dacefeaa5d7~~~track_line_d4d3651e_5112_49ab_8013_7eb9f7cffdae~~~tunnel_line_ac78f00b_cc51_4875_8405_cb470b983d06~~~bridge_line_06cd37b5_503c_4e88_83c6_16cb2f9ac2da~~~ferry_crossing_2ffd48d4_42e3_459b_9a13_e058be2c426b~~~railway_line_4af23637_fd1b_4893_9d83_a75c6c345ed3~~~railway_line_0c49b58f_0ce7_46f5_a988_f74342ded07e~~~road_line_2e45cb01_1167_4f42_a62d_7079febe03ba~~~runway_3d6c2a5e_9e6a_4ab8_a33e_93549d4fdad7~~~airport_b4b842ef_cd17_4bd4_9160_84825f6da2d6~~~water_line_55b915ea_2dc9_485f_93d6_2b7be8e5ec13~~~physical_infrastructure_point_d57d46c3_0bc6_44ee_a6c6_edd7776cf724~~~physical_infrastructure_line_7ab8d7e3_c684_49b2_a0f7_f4000f5d40e2~~~residential_area_dac1ad5e_ad4f_47b7_8780_8ff3ef55990a~~~structure_point_f25d7628_6191_4a5c_aedf_7d9a31da0806~~~structure_line_e6ab78da_e259_4999_80db_4fb1a58b2212~~~structure_7b18af2c_a09f_4b7c_8a3e_7a4bff1a8919~~~tree_locations_391dcd1b_1b80_4af3_ada9_b745971aaab3~~~place_point_4c93d61b_e46a_45e1_aa1e_20a9fb9a369b~~~landcover_point_9582adab_24ce_4bb8_9fa7_edbd9deb5fc4~~~coastline_ad4475fd_b116_41d3_b233_ecee1645ce0c~~~fence_line_0ae920c8_8285_48ff_8434_a3a62b9331e9~~~landcover_line_cdf971d4_6b43_4096_be5f_e378926e8f4e~~~vegetation_line_c154c78e_d559_41a6_9508_662cf9dced47~~~vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff~~~vegetation_b4519422_8204_443f_8142_3fbf5b80bf2c~~~vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06~~~vegetation_map_6ddbcc48_4580_4f33_a2b4_6b8b2cb87010~~~landcover_99ce0e45_8738_4336_ab0a_9089f2cddd26~~~water_point_6846f50c_9a60_48c1_8295_44887c4ca863~~~coastline_e4eb6544_8961_407f_861b_9557608163ef~~~water_line_22fc5a4f_da2b_4562_80ba_e53ec4573650~~~waterway_feature_line_c5596343_e19b_46a0_85ac_09ea934d761c~~~island_a8d9c9c8_4b7d_4b7d_a8e2_3357830364b1~~~waterway_feature_f68e122f_522b_4510_bc26_08cdb03af34d~~~waterway_feature_735a97d7_c3fa_453a_af60_aa43133114d0~~~marine_55c2070c_175f_4a16_bcf9_6328c9c15b4d~~~water_b3dffc51_1f0e_419f_8b80_469a0514e606~~~water_588dc294_2511_4021_b360_d60dd3af4ca4~~~structure_point_c057beff_bcb2_4f70_9143_ff31a0eaa345~~~_a1dfc037_64ce_4afb_9748_3661da4f7769~~~track_line_335533a4_5a9b_4ea8_93b8_5e78a8e9841c~~~road_line_2_lane_map_e799a785_d8c6_4175_9251_610c0f53d138~~~road_line_2_lane_map_78ce3303_7b7a_4e74_b1a0_07d4c3ec35ef~~~road_line_1_lane_map_13a1da1a_3657_4e21_8df8_88fb22779470~~~road_line_1_unmetalled_lane_map_7611c5bd_f1eb_4f31_a0f1_b805d527870c~~~road_line_1_lane_map_04364a85_3b11_4113_afe9_96e45a78d48c~~~road_line_1_lane_map_778f64c3_a8f8_49a8_b920_2251012d04ce~~~road_line_1_lane_background_map_0df2f897_2452_4ba4_b82c_8639d4b113f7~~~bridge_line_609d0f93_7ab3_4063_bb88_611caa66f571~~~bridge_line_copy_1d520701_95d1_42ab_8b48_ef788b6c9089~~~bridge_line_copy_96c58d77_d052_4809_a5e6_b63cbf7bd943~~~water_map_c8755a27_95f3_41b9_a721_daa07b2230e9~~~DMS_grid_2469f869_3658_4636_8243_00c1fd817ea4~~~Grid_lines_29313b11_c5da_4697_b8d4_d3d5e0bbea46~~~Cartographic_Text_b00df16e_7cc5_4de2_b2e4_40c50f5552cd~~~water_map_85e508b5_dac4_4fab_85da_3ac08b1b3b04~~~nztopo50_ice_contour_724d2844_7135_4500_aec2_38f1e44fce6b~~~landuse_38dca51b_4325_41cf_afe2_b4594fe23a71~~~nz_topo50_carto_text_a07910ed_205a_4087_b62c_06e374d15547~~~_358c7d1f_5f24_4c83_a42b_ca9a0e87623f"/>
           <Option name="pdfLosslessImages" type="int" value="1"/>
@@ -68971,7 +69402,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales/>
-    <DefaultViewExtent xmax="1378942.25239602546207607" xmin="1367816.38672959920950234" ymax="5187258.89837145339697599" ymin="5181161.83678155671805143">
+    <DefaultViewExtent xmax="1391698.09644302050583065" xmin="1366664.89869356085546315" ymax="5220883.12114869058132172" ymin="5207164.73257142305374146">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["NZGD2000 / New Zealand Transverse Mercator 2000",BASEGEOGCRS["NZGD2000",DATUM["New Zealand Geodetic Datum 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4167]],CONVERSION["New Zealand Transverse Mercator 2000",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",173,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",1600000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["New Zealand - North Island, South Island, Stewart Island - onshore."],BBOX[-47.33,166.37,-34.1,178.63]],ID["EPSG",2193]]</wkt>
         <proj4>+proj=tmerc +lat_0=0 +lon_0=173 +k=0.9996 +x_0=1600000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -69036,7 +69467,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="descriptive_text_611314fa_e5da_45d6_ae50_9f398ec0b39c" destinationLayerName="descriptive_text" destinationLayerProvider="ogr" destinationLayerSource="C:/Temp/kart/topographic-qgis/map-series/nztopo50/descriptive_text.parquet">
+  <ProjectGpsSettings autoAddTrackVertices="0" autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="contour_29b7338d_32d7_4edc_89f1_356ed01fb423" destinationLayerName="contour" destinationLayerProvider="ogr" destinationLayerSource="C:/Temp/kart/topographic-qgis/map-series/nztopo50/contour.parquet">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
