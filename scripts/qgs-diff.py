@@ -80,6 +80,36 @@ def simplify(root):
                 if child.get("name") == "expandedLegendNodes":
                     option.remove(child)
 
+    # Map themes (visibility-presets) are real config — keep which layers and
+    # styles each theme turns on (visible=/style=). But QGIS rewrites legend UI
+    # state into each preset on every save: drop the expanded= flag and the
+    # <expanded-legend-nodes> records, and sort the <layer> entries by id so a
+    # reordered-but-unchanged theme produces no diff.
+    for preset in root.iter("visibility-preset"):
+        for tag in ("expanded-legend-nodes", "expanded-group-nodes"):
+            for el in preset.findall(tag):
+                preset.remove(el)
+        for layer in preset.findall("layer"):
+            layer.attrib.pop("expanded", None)
+        # Order within a theme (its layers and its checked-group/legend-node
+        # containers) is serialisation order, not config — sort recursively so a
+        # reordered-but-unchanged theme produces no diff. Keeps which layers,
+        # groups and legend nodes the theme turns on; only the order is dropped.
+        for el in preset.iter():
+            el[:] = sorted(el, key=lambda c: (c.tag, c.get("id", "")))
+
+    # Default canvas view extent, like <mapcanvas> — current view, not config.
+    for vs in root.findall("ProjectViewSettings"):
+        for el in vs.findall("DefaultViewExtent"):
+            vs.remove(el)
+
+    # Embedded-attachment refs (project style db, icc profile, ...) get a fresh
+    # random token on every save — normalise so the churn doesn't diff.
+    for el in root.iter():
+        for attr, val in el.attrib.items():
+            if val.startswith("attachment:///"):
+                el.attrib[attr] = "attachment:///"
+
     # Keep project metadata, scrub its auto timestamps.
     for md in root.findall("projectMetadata"):
         for el in md.iter("creation"):
