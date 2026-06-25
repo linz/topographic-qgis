@@ -12,9 +12,8 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write   # post the sticky comment
-  models: read           # GitHub Models inference
-
+  pull-requests: write
+  # models:/copilot-requests: no longer needed
 
 concurrency:
   group: qgs-ai-summary-${{ github.event.pull_request.number }}
@@ -24,27 +23,28 @@ jobs:
   summarise:
     runs-on: ubuntu-latest
     env:
-      MODEL: openai/gpt-4.1
+      MODEL: gpt-4.1
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0   # need merge-base + base version of each file
-
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
       - name: Build churn-free diff
         id: diff
         run: |
           python3 scripts/qgs-diff.py diff --base "${{ github.base_ref }}" > diff.txt
           [ -s diff.txt ] && echo "changed=1" >> "$GITHUB_OUTPUT" || echo "changed=0" >> "$GITHUB_OUTPUT"
 
-      - name: Summarise with GitHub Models
+      - name: Summarise via Copilot
         id: ai
         if: steps.diff.outputs.changed == '1'
         uses: actions/ai-inference@v2
         with:
-          model: ${{ env.MODEL }}
-          token: ${{ github.token }}
-          max-completion-tokens: 3000
+          provider: copilot
+          model: ${{ env.MODEL }}  # gpt-4.1 or gpt-5-mini; omit for the CLI default
           prompt-file: diff.txt
           system-prompt: |
             You are reviewing changes to QGIS .qgs project files for a pull
@@ -60,7 +60,8 @@ jobs:
               sources. Name the actual layers, properties and values.
             - Do not restate raw XML, omit unchanged files, never invent changes.
             - Output only the per-file sections, no preamble or conclusion.
-
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.TMP_TRS_TOKEN }}
       - name: Post sticky PR comment
         env:
           GH_TOKEN: ${{ github.token }}
