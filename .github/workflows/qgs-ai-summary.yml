@@ -23,7 +23,7 @@ jobs:
   summarise:
     runs-on: ubuntu-latest
     env:
-      MODEL: gpt-4.1
+      MODEL: gpt-5-mini
     steps:
       - uses: actions/checkout@v4
         with:
