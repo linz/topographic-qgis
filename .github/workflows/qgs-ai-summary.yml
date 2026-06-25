@@ -42,7 +42,7 @@ jobs:
         uses: actions/ai-inference@v2
         with:
           model: openai/gpt-5-4-mini
-          token: '${{ secrets.TMP_TRS_TOKEN }}'
+          token: ${{ github.token }}
           max-completion-tokens: 3000
           prompt-file: diff.txt
           system-prompt: |
