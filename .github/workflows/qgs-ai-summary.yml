@@ -41,7 +41,7 @@ jobs:
         if: steps.diff.outputs.changed == '1'
         uses: actions/ai-inference@v2
         with:
-          model: openai/gpt-5-4-mini
+          model: openai/gpt-5-4
           token: ${{ github.token }}
           max-completion-tokens: 3000
           prompt-file: diff.txt
