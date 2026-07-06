@@ -59,7 +59,10 @@ jobs:
             --model "$MODEL" \
             --allow-all-tools \
             --no-ask-user \
-            -p 'Read the unified diff in the file diff.txt in the current directory.
+            -p 'Read the whole of the file diff.txt in the current directory with
+          your file-reading tool. It is small - do NOT grep/search it: its unified
+          -diff headers (---, +++, @@) contain regex metacharacters that make the
+          search tool error out.
           It contains changes to QGIS .qgs project files for a pull request; QGIS
           session churn has already been stripped, so ignore residual noise
           (reordered attributes, internal ids, emptied values).
@@ -71,6 +74,7 @@ jobs:
             layouts, project CRS, variables, map themes, expressions, data
             sources. Name the actual layers, properties and values.
           - Do not restate raw XML, omit unchanged files, never invent changes.
+          - Write a short summary (strictly 1-2 sentences) for each file, after the bullet points.
 
           Write ONLY the per-file sections (no preamble or conclusion) to a file
           named summary.md in the current directory. Do not print anything else.'
