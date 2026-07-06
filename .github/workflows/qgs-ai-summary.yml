@@ -55,6 +55,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
+          # Run the agent in an isolated dir holding ONLY diff.txt, so
+          # --allow-all-tools has nothing else to read - it can't glob or open
+          # the (large) .qgs project files in the checkout and blow up context.
+          work="$RUNNER_TEMP/qgs-ai"
+          mkdir -p "$work"
+          cp diff.txt "$work/diff.txt"
+          cd "$work"
           copilot \
             --model "$MODEL" \
             --allow-all-tools \
@@ -76,8 +83,8 @@ jobs:
           - Do not restate raw XML, omit unchanged files, never invent changes.
           - Write a short summary (strictly 1-2 sentences) for each file, after the bullet points.
 
-          Write ONLY the per-file sections (no preamble or conclusion) to a file
-          named summary.md in the current directory. Do not print anything else.'
+          Print ONLY the per-file sections (no preamble or conclusion). Do not
+          write any files.' > "$GITHUB_WORKSPACE/summary.md"
 
       - name: Post sticky PR comment
         env:
