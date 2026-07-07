@@ -61,7 +61,9 @@ jobs:
           cd "$WORK"
           copilot \
             --model "$MODEL" \
+            --allow-all-tools \
             --no-ask-user \
+            --max-ai-credits 50 \
             -p 'Read the whole of the file diff.txt in the current directory with
           your file-reading tool. It is small - do NOT grep/search it: its unified
           -diff headers (---, +++, @@) contain regex metacharacters that make the
@@ -70,17 +72,26 @@ jobs:
           session churn has already been stripped, so ignore residual noise
           (reordered attributes, internal ids, emptied values).
 
-          Write a concise GitHub-flavored-markdown summary:
-          - Group by file under a "### <path>" heading matching the diff.
-          - Short bullets, substantive changes only: layers added / removed /
-            renamed / reordered, symbology, labelling, scale ranges, print
-            layouts, project CRS, variables, map themes, expressions, data
-            sources. Name the actual layers, properties and values.
-          - Do not restate raw XML, omit unchanged files, never invent changes.
-          - Write a short summary (strictly 1-2 sentences) for each file, after the bullet points.
+          Write a concise, scannable GitHub-flavored-markdown summary of the
+          substantive changes only: layers added / removed / renamed / reordered,
+          symbology, labelling, scale ranges, print layouts, project CRS,
+          variables, map themes, expressions, data sources. Do not restate raw
+          XML, omit unchanged files, never invent changes.
 
-          Print ONLY the per-file sections (no preamble or conclusion). Do not
-          write any files.' > "$GITHUB_WORKSPACE/summary.md"
+          Format it exactly like this:
+          - Start each changed file with a heading: "### `<path>`" (path in backticks).
+          - Directly under the heading, write a one-line _italic_ TL;DR (1-2
+            sentences) of what changed in that file.
+          - Then list the changes as bullets, grouped under short **bold**
+            sub-labels where it helps (e.g. **Layers**, **Symbology**,
+            **Labelling**, **Scale**, **Layout**, **Data sources**, **Project**).
+            Omit any group with no changes. Name the actual layers, properties
+            and values.
+          - Separate consecutive files with a horizontal rule (---).
+
+          Write ONLY this markdown (no preamble or conclusion) to a file named
+          summary.md in the current directory.' || true
+          cp "$WORK/summary.md" "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
 
       - name: Post sticky PR comment
         env:
