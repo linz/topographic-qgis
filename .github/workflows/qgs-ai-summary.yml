@@ -33,8 +33,10 @@ jobs:
       - name: Build churn-free diff
         id: diff
         run: |
-          python3 scripts/qgs-diff.py diff --base "${{ github.base_ref }}" > diff.txt
-          [ -s diff.txt ] && echo "changed=1" >> "$GITHUB_OUTPUT" || echo "changed=0" >> "$GITHUB_OUTPUT"
+          WORK="$RUNNER_TEMP/qgs-ai"
+          mkdir -p "$WORK"
+          python3 scripts/qgs-diff.py diff --base "${{ github.base_ref }}" > "$WORK/diff.txt"
+          [ -s "$WORK/diff.txt" ] && echo "changed=1" >> "$GITHUB_OUTPUT" || echo "changed=0" >> "$GITHUB_OUTPUT"
 
       - name: Set up Node for the Copilot CLI
         if: steps.diff.outputs.changed == '1'
@@ -55,16 +57,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          # Run the agent in an isolated dir holding ONLY diff.txt, so
-          # --allow-all-tools has nothing else to read - it can't glob or open
-          # the (large) .qgs project files in the checkout and blow up context.
-          work="$RUNNER_TEMP/qgs-ai"
-          mkdir -p "$work"
-          cp diff.txt "$work/diff.txt"
-          cd "$work"
+          WORK="$RUNNER_TEMP/qgs-ai"
+          cd "$WORK"
           copilot \
             --model "$MODEL" \
-            --allow-all-tools \
             --no-ask-user \
             -p 'Read the whole of the file diff.txt in the current directory with
           your file-reading tool. It is small - do NOT grep/search it: its unified
