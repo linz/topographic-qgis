@@ -68826,7 +68826,7 @@ def my_form_open(dialog, layer, feature):
           </customproperties>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map3View" frame="true" frameJoinStyle="miter" groupUuid="" id="Map - Front cover" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.3,mm" position="107.752,777.344,mm" positionLock="false" positionOnPage="107.752,777.344,mm" referencePoint="0" size="71.8432,108.068,mm" templateUuid="{e38bd4eb-f14b-4356-9a2a-8e864fe6cfbb}" type="65639" uuid="{e38bd4eb-f14b-4356-9a2a-8e864fe6cfbb}" visibility="1" zValue="4">
+      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map3View" frame="true" frameJoinStyle="miter" groupUuid="" id="map_cover_front" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.3,mm" position="107.752,777.344,mm" positionLock="false" positionOnPage="107.752,777.344,mm" referencePoint="0" size="71.8432,108.068,mm" templateUuid="{e38bd4eb-f14b-4356-9a2a-8e864fe6cfbb}" type="65639" uuid="{e38bd4eb-f14b-4356-9a2a-8e864fe6cfbb}" visibility="1" zValue="4">
         <FrameColor alpha="255" blue="0" green="0" red="0"/>
         <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
         <LayoutObject>
@@ -68850,7 +68850,7 @@ def my_form_open(dialog, layer, feature):
         </atlasClippingSettings>
         <itemClippingSettings clipSource="" clippingType="1" enabled="0" forceLabelsInside="0"/>
       </LayoutItem>
-      <LayoutItem background="false" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="MapView" frame="false" frameJoinStyle="miter" groupUuid="" id="Map - Back cover" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.3,mm" position="97.6602,596.252,mm" positionLock="false" positionOnPage="97.6602,596.252,mm" referencePoint="0" size="92.1392,105.453,mm" templateUuid="{45b0c598-c868-4083-83fa-72759fb636bb}" type="65639" uuid="{45b0c598-c868-4083-83fa-72759fb636bb}" visibility="1" zValue="3">
+      <LayoutItem background="false" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="MapView" frame="false" frameJoinStyle="miter" groupUuid="" id="map_cover_back" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.3,mm" position="97.6602,596.252,mm" positionLock="false" positionOnPage="97.6602,596.252,mm" referencePoint="0" size="92.1392,105.453,mm" templateUuid="{45b0c598-c868-4083-83fa-72759fb636bb}" type="65639" uuid="{45b0c598-c868-4083-83fa-72759fb636bb}" visibility="1" zValue="3">
         <FrameColor alpha="255" blue="0" green="0" red="0"/>
         <BackgroundColor alpha="51" blue="255" green="158" red="0"/>
         <LayoutObject>
@@ -68874,7 +68874,7 @@ def my_form_open(dialog, layer, feature):
         </atlasClippingSettings>
         <itemClippingSettings clipSource="" clippingType="1" enabled="0" forceLabelsInside="0"/>
       </LayoutItem>
-      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map5View" frame="true" frameJoinStyle="miter" groupUuid="" id="Map - Main map" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.4,mm" position="207.947,75.1608,mm" positionLock="false" positionOnPage="207.947,75.1608,mm" referencePoint="0" size="479.621,719.43,mm" templateUuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" type="65639" uuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" visibility="1" zValue="2">
+      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" enableZRange="0" excludeFromExports="0" followPreset="true" followPresetName="Map5View" frame="true" frameJoinStyle="miter" groupUuid="" id="map_main" isTemporal="0" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="0" opacity="1" outlineWidthM="0.4,mm" position="207.947,75.1608,mm" positionLock="false" positionOnPage="207.947,75.1608,mm" referencePoint="0" size="479.621,719.43,mm" templateUuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" type="65639" uuid="{e1f230ea-4c9e-4ea9-a1f3-413ace3829fa}" visibility="1" zValue="2">
         <FrameColor alpha="255" blue="214" green="164" red="55"/>
         <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
         <LayoutObject>
