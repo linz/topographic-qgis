@@ -69,9 +69,9 @@ jobs:
             --no-ask-user \
             --max-ai-credits 50 \
             -p 'Use your file-reading with forceReadLargeFiles to read the entire file diff.txt in the current directory and extract substantive QGIS project changes.
-          It is small and unified and has some types of changes already removed. 
+          It is small and unified and has some types of changes already removed.
           - Identify the meaningful changes from the diff
-          - diff headers (---, +++, @@)) are present. Might make the search tool error out.
+          - diff headers (---, +++, @@) are present. Might make the search tool error out.
           It contains changes to QGIS .qgs project files for a pull request; QGIS
           session churn has already been stripped, so ignore residual noise
           (reordered attributes, internal ids, emptied values, etc).
@@ -92,13 +92,13 @@ jobs:
             Omit any group with no changes. Name the actual layers, properties
             and values.
           - Separate consecutive files with a horizontal rule (---).
-          
-          IMPORTANT: At the end, check over your summary and make sure there are no repeated bullet points or other statements that could be summarized further. Combine any repeated points into a combined bullet point.'
-          
+
+          IMPORTANT: At the end, check over your summary and make sure there are no repeated bullet points or other statements that could be summarized further. Combine any repeated points into a combined bullet point.
+
           Write ONLY this markdown (no preamble or conclusion) to a file named
           summary.md in the current directory.' || true
           cp "$WORK/summary.md" "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
-         echo "::endgroup::"
+          echo "::endgroup::"
 
       - name: Post sticky PR comment
         env:
