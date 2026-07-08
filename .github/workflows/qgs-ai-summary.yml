@@ -59,6 +59,11 @@ jobs:
           set -euo pipefail
           WORK="$RUNNER_TEMP/qgs-ai"
           cd "$WORK"
+          wc -l diff.txt
+          echo "::group::diff (contains $(wc -l < diff.txt) lines)"
+          cat diff.txt
+          echo "::endgroup::"
+          echo "::group::Generating summary with Copilot CLI (model $MODEL)"
           copilot \
             --model "$MODEL" \
             --no-ask-user \
@@ -88,11 +93,12 @@ jobs:
             and values.
           - Separate consecutive files with a horizontal rule (---).
           
-          IMPORTANT: At the end, check over your summary and make sure there are no repeated bullet points or other statements that could be summarized further. Summarize any repeated points into a single bullet point. If there are no substantive changes, write a single line: '_No substantive QGIS project changes detected - only QGIS session churn._'
+          IMPORTANT: At the end, check over your summary and make sure there are no repeated bullet points or other statements that could be summarized further. Combine any repeated points into a combined bullet point.'
           
           Write ONLY this markdown (no preamble or conclusion) to a file named
           summary.md in the current directory.' || true
           cp "$WORK/summary.md" "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
+         echo "::endgroup::"
 
       - name: Post sticky PR comment
         env:
