@@ -23,7 +23,7 @@ jobs:
   summarise:
     runs-on: ubuntu-latest
     env:
-      MODEL: gpt-5-mini
+      MODEL: gpt-5.4
     steps:
       - uses: actions/checkout@v4
         with:
@@ -59,39 +59,41 @@ jobs:
           set -euo pipefail
           WORK="$RUNNER_TEMP/qgs-ai"
           cd "$WORK"
+          echo "::group::diff (contains $(wc -l < diff.txt) lines, $(wc -c < diff.txt) bytes)"
+          cat diff.txt
+          echo
+          echo "::endgroup::"
+
+          # Cap the inlined diff. Linux limits a single argv string to ~128 KB
+          # (MAX_ARG_STRLEN), so the whole -p argument (prompt + diff) must stay
+          # under that or copilot dies with "Argument list too long". The
+          # churn-free diff is normally well under this; only a wholesale rewrite
+          # truncates. Override with INPUT_CHAR_BUDGET.
+          BUDGET="${INPUT_CHAR_BUDGET:-110000}"
+          DIFF="$(head -c "$BUDGET" diff.txt)"
+          if [ "$(wc -c < diff.txt)" -gt "$BUDGET" ]; then
+            DIFF="$(printf '%s\n[...diff truncated to %s chars to fit the arg limit; summary is partial...]' "$DIFF" "$BUDGET")"
+          fi
+
+          echo "::group::Generating summary with Copilot CLI (model $MODEL)"
+          # One-shot: the diff is INLINE (not a file to read) and the answer comes
+          # back on stdout via -s. This sidesteps the agent read/write loop -- with
+          # nothing to read and nothing to write, a large tool-result can't get
+          # evicted and trigger endless re-reads; it's a single completion.
+          PROMPT="$(printf '%s\n\n--- BEGIN CHURN-FREE DIFF ---\n%s\n--- END CHURN-FREE DIFF ---\n\n%s' \
+            "$(cat "$GITHUB_WORKSPACE/scripts/assets/qgs-review-prompt.md")" \
+            "$DIFF" \
+            'The complete churn-free diff is included above. Do NOT read or write any files. Output ONLY the markdown summary (no preamble or conclusion).')"
           copilot \
             --model "$MODEL" \
             --allow-all-tools \
             --no-ask-user \
             --max-ai-credits 50 \
-            -p 'Read the whole of the file diff.txt in the current directory with
-          your file-reading tool. It is small - do NOT grep/search it: its unified
-          -diff headers (---, +++, @@) contain regex metacharacters that make the
-          search tool error out.
-          It contains changes to QGIS .qgs project files for a pull request; QGIS
-          session churn has already been stripped, so ignore residual noise
-          (reordered attributes, internal ids, emptied values).
-
-          Write a concise, scannable GitHub-flavored-markdown summary of the
-          substantive changes only: layers added / removed / renamed / reordered,
-          symbology, labelling, scale ranges, print layouts, project CRS,
-          variables, map themes, expressions, data sources. Do not restate raw
-          XML, omit unchanged files, never invent changes.
-
-          Format it exactly like this:
-          - Start each changed file with a heading: "### `<path>`" (path in backticks).
-          - Directly under the heading, write a one-line _italic_ TL;DR (1-2
-            sentences) of what changed in that file.
-          - Then list the changes as bullets, grouped under short **bold**
-            sub-labels where it helps (e.g. **Layers**, **Symbology**,
-            **Labelling**, **Scale**, **Layout**, **Data sources**, **Project**).
-            Omit any group with no changes. Name the actual layers, properties
-            and values.
-          - Separate consecutive files with a horizontal rule (---).
-
-          Write ONLY this markdown (no preamble or conclusion) to a file named
-          summary.md in the current directory.' || true
-          cp "$WORK/summary.md" "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
+            -s \
+            -p "$PROMPT" > summary.md || true
+          cp summary.md "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
+          echo
+          echo "::endgroup::"
 
       - name: Post sticky PR comment
         env:
