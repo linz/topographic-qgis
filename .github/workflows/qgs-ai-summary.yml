@@ -59,17 +59,30 @@ jobs:
           set -euo pipefail
           WORK="$RUNNER_TEMP/qgs-ai"
           cd "$WORK"
-          wc -l diff.txt
-          echo
-          echo "::group::diff (contains $(wc -l < diff.txt) lines)"
+          echo "::group::diff (contains $(wc -l < diff.txt) lines, $(wc -c < diff.txt) bytes)"
           cat diff.txt
           echo
           echo "::endgroup::"
+
+          # Cap the inlined diff so a huge PR (wholesale layer rewrite) can't blow
+          # the model context or the shell arg limit. The churn-free diff is
+          # normally small; this only bites on the rare enormous rewrite. Override
+          # with INPUT_CHAR_BUDGET.
+          BUDGET="${INPUT_CHAR_BUDGET:-500000}"
+          DIFF="$(head -c "$BUDGET" diff.txt)"
+          if [ "$(wc -c < diff.txt)" -gt "$BUDGET" ]; then
+            DIFF="$(printf '%s\n[...diff truncated to %s chars to fit the model context; summary is partial...]' "$DIFF" "$BUDGET")"
+          fi
+
           echo "::group::Generating summary with Copilot CLI (model $MODEL)"
-          PROMPT="$(printf '%s\n\n%s\n\n%s' \
-            'Use your file-reading with forceReadLargeFiles to read the entire file diff.txt in the current directory. It is small and unified with some change types already removed; diff headers (---, +++, @@) are present and may trip up the search tool, so read the file directly.' \
+          # Pass the diff INLINE (not as a file to read). The Copilot CLI is an
+          # agent: a 900 KB read tool-result gets evicted by context compaction,
+          # so it re-reads diff.txt every turn and never finishes. In-context text
+          # can't be evicted, so it produces the summary in one shot.
+          PROMPT="$(printf '%s\n\n--- BEGIN CHURN-FREE DIFF ---\n%s\n--- END CHURN-FREE DIFF ---\n\n%s' \
             "$(cat "$GITHUB_WORKSPACE/scripts/assets/qgs-review-prompt.md")" \
-            'Write ONLY this markdown (no preamble or conclusion) to a file named summary.md in the current directory.')"
+            "$DIFF" \
+            'The complete churn-free diff is included above. Do NOT read any files. Write ONLY the markdown summary (no preamble or conclusion) to a file named summary.md in the current directory.')"
           copilot \
             --model "$MODEL" \
             --no-ask-user \
