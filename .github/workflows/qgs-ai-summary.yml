@@ -64,31 +64,34 @@ jobs:
           echo
           echo "::endgroup::"
 
-          # Cap the inlined diff so a huge PR (wholesale layer rewrite) can't blow
-          # the model context or the shell arg limit. The churn-free diff is
-          # normally small; this only bites on the rare enormous rewrite. Override
-          # with INPUT_CHAR_BUDGET.
-          BUDGET="${INPUT_CHAR_BUDGET:-500000}"
+          # Cap the inlined diff. Linux limits a single argv string to ~128 KB
+          # (MAX_ARG_STRLEN), so the whole -p argument (prompt + diff) must stay
+          # under that or copilot dies with "Argument list too long". The
+          # churn-free diff is normally well under this; only a wholesale rewrite
+          # truncates. Override with INPUT_CHAR_BUDGET.
+          BUDGET="${INPUT_CHAR_BUDGET:-110000}"
           DIFF="$(head -c "$BUDGET" diff.txt)"
           if [ "$(wc -c < diff.txt)" -gt "$BUDGET" ]; then
-            DIFF="$(printf '%s\n[...diff truncated to %s chars to fit the model context; summary is partial...]' "$DIFF" "$BUDGET")"
+            DIFF="$(printf '%s\n[...diff truncated to %s chars to fit the arg limit; summary is partial...]' "$DIFF" "$BUDGET")"
           fi
 
           echo "::group::Generating summary with Copilot CLI (model $MODEL)"
-          # Pass the diff INLINE (not as a file to read). The Copilot CLI is an
-          # agent: a 900 KB read tool-result gets evicted by context compaction,
-          # so it re-reads diff.txt every turn and never finishes. In-context text
-          # can't be evicted, so it produces the summary in one shot.
+          # One-shot: the diff is INLINE (not a file to read) and the answer comes
+          # back on stdout via -s. This sidesteps the agent read/write loop -- with
+          # nothing to read and nothing to write, a large tool-result can't get
+          # evicted and trigger endless re-reads; it's a single completion.
           PROMPT="$(printf '%s\n\n--- BEGIN CHURN-FREE DIFF ---\n%s\n--- END CHURN-FREE DIFF ---\n\n%s' \
             "$(cat "$GITHUB_WORKSPACE/scripts/assets/qgs-review-prompt.md")" \
             "$DIFF" \
-            'The complete churn-free diff is included above. Do NOT read any files. Write ONLY the markdown summary (no preamble or conclusion) to a file named summary.md in the current directory.')"
+            'The complete churn-free diff is included above. Do NOT read or write any files. Output ONLY the markdown summary (no preamble or conclusion).')"
           copilot \
             --model "$MODEL" \
+            --allow-all-tools \
             --no-ask-user \
             --max-ai-credits 50 \
-            -p "$PROMPT" || true
-          cp "$WORK/summary.md" "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
+            -s \
+            -p "$PROMPT" > summary.md || true
+          cp summary.md "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
           echo
           echo "::endgroup::"
 
