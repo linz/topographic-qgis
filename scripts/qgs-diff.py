@@ -23,7 +23,9 @@ is fed to an LLM for a human-readable summary. Nothing derived is committed.
 Removed by `simplify` (still present in the committed .qgs):
     current canvas view, legend expand/collapse and checked state, cached
     layer extents, spatial bookmarks, snapping settings, open view docks,
-    GPS/sensor state, save metadata and auto timestamps.
+    GPS/sensor state, save metadata and auto timestamps, and the trailing
+    ",,0,0" QFont-descriptor fields newer QGIS/Qt builds append to
+    <fontProperties>.
 """
 
 import argparse
@@ -79,6 +81,15 @@ def simplify(root):
             for child in list(option):
                 if child.get("name") == "expandedLegendNodes":
                     option.remove(child)
+
+    # QFont descriptor churn: newer QGIS/Qt builds append extra trailing fields
+    # to <fontProperties description="..."> (styleName + flags), so the same
+    # font diffs as e.g. "...,1" vs "...,1,,0,0". Strip the trailing empty
+    # fields so a font that only changed build produces no diff.
+    for fp in root.iter("fontProperties"):
+        desc = fp.get("description")
+        if desc and desc.endswith(",,0,0"):
+            fp.set("description", desc[: -len(",,0,0")])
 
     # Map themes (visibility-presets) are real config — keep which layers and
     # styles each theme turns on (visible=/style=). But QGIS rewrites legend UI

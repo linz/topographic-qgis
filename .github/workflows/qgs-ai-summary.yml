@@ -66,39 +66,15 @@ jobs:
           echo
           echo "::endgroup::"
           echo "::group::Generating summary with Copilot CLI (model $MODEL)"
+          PROMPT="$(printf '%s\n\n%s\n\n%s' \
+            'Use your file-reading with forceReadLargeFiles to read the entire file diff.txt in the current directory. It is small and unified with some change types already removed; diff headers (---, +++, @@) are present and may trip up the search tool, so read the file directly.' \
+            "$(cat "$GITHUB_WORKSPACE/scripts/assets/qgs-review-prompt.md")" \
+            'Write ONLY this markdown (no preamble or conclusion) to a file named summary.md in the current directory.')"
           copilot \
             --model "$MODEL" \
             --no-ask-user \
             --max-ai-credits 50 \
-            -p 'Use your file-reading with forceReadLargeFiles to read the entire file diff.txt in the current directory and extract substantive QGIS project changes.
-          It is small and unified and has some types of changes already removed.
-          - Identify the meaningful changes from the diff
-          - diff headers (---, +++, @@) are present. Might make the search tool error out.
-          It contains changes to QGIS .qgs project files for a pull request; QGIS
-          session churn has already been stripped, so ignore residual noise
-          (reordered attributes, internal ids, emptied values, etc).
-
-          Write a concise, scannable GitHub-flavored-markdown summary of the
-          substantive changes only: layers added / removed / renamed / reordered,
-          symbology, labelling, scale ranges, print layouts, project CRS,
-          variables, map themes, expressions, data sources. Do not restate raw
-          XML, omit unchanged files, never invent changes.
-
-          Format it exactly like this:
-          - Start each changed file with a heading: "### `<path>`" (path in backticks).
-          - Directly under the heading, write a one-line _italic_ TL;DR (1-2
-            sentences) of what changed in that file.
-          - Then list the changes as bullets, grouped under short **bold**
-            sub-labels where it helps (e.g. **Layers**, **Symbology**,
-            **Labelling**, **Scale**, **Layout**, **Data sources**, **Project**).
-            Omit any group with no changes. Name the actual layers, properties
-            and values.
-          - Separate consecutive files with a horizontal rule (---).
-
-          IMPORTANT: At the end, check over your summary and make sure there are no repeated bullet points or other statements that could be summarized further. Combine any repeated points into a combined bullet point.
-
-          Write ONLY this markdown (no preamble or conclusion) to a file named
-          summary.md in the current directory.' || true
+            -p "$PROMPT" || true
           cp "$WORK/summary.md" "$GITHUB_WORKSPACE/summary.md" 2>/dev/null || true
           echo
           echo "::endgroup::"
