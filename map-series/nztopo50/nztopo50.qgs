@@ -314,7 +314,7 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="0" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" legend_exp="" legend_split_behavior="0" name="vegetation map" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" legend_exp="" legend_split_behavior="0" name="vegetation map" patch_size="-1,-1" providerKey="ogr" source="./vegetation.parquet">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes" type="invalid"/>
@@ -1005,8 +1005,8 @@
         <legendlayerfile isInOverview="0" layerid="vegetation_line_cf2e5328_2736_4dea_8caa_c2c445e693ff" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="vegetation map" open="false" showFeatureCount="0">
-      <filegroup hidden="false" open="false">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="vegetation map" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="vegetation_fad07b89_a3ed_4a2e_b512_a9079fa1cb06" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -52122,8 +52122,8 @@ def my_form_open(dialog, layer, feature):
             <Option type="QString" value="&quot;name&quot;"/>
           </Option>
           <Option name="embeddedWidgets/count" type="int" value="0"/>
-          <Option name="variableNames" type="invalid"/>
-          <Option name="variableValues" type="invalid"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -52199,7 +52199,7 @@ def my_form_open(dialog, layer, feature):
           <Option name="QgsGeometryGapCheck" type="Map">
             <Option name="allowedGapsBuffer" type="double" value="0"/>
             <Option name="allowedGapsEnabled" type="bool" value="false"/>
-            <Option name="allowedGapsLayer" type="invalid"/>
+            <Option name="allowedGapsLayer" type="QString" value=""/>
           </Option>
         </checkConfiguration>
       </geometryOptions>
