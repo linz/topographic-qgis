@@ -9241,7 +9241,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
                 <Option name="fixedAspectRatio" type="QString" value="0"/>
                 <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                <Option name="name" type="QString" value="./svg/topo50_building.svg"/>
+                <Option name="name" type="QString" value="./symbol/nztopo50_building.svg"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
@@ -9279,7 +9279,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
                 <Option name="fixedAspectRatio" type="QString" value="0"/>
                 <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                <Option name="name" type="QString" value="./svg/topo50_hut.svg"/>
+                <Option name="name" type="QString" value="./symbol/nztopo50_hut.svg"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
@@ -9377,7 +9377,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="color" type="QString" value="255,0,0,255,rgb:1,0,0,1"/>
                 <Option name="fixedAspectRatio" type="QString" value="0"/>
                 <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                <Option name="name" type="QString" value="./svg/topo50_church.svg"/>
+                <Option name="name" type="QString" value="./symbol/nztopo50_church.svg"/>
                 <Option name="offset" type="QString" value="0,-0.80000000000000004"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
@@ -42497,7 +42497,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="color" type="QString" value="0,0,0,255,rgb:0,0,0,1"/>
                 <Option name="fixedAspectRatio" type="QString" value="0"/>
                 <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                <Option name="name" type="QString" value="./svg/topo_marine_beacon.svg"/>
+                <Option name="name" type="QString" value="./symbol/nztopo50_marine_beacon.svg"/>
                 <Option name="offset" type="QString" value="0,-1"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
@@ -42990,7 +42990,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="color" type="QString" value="0,0,0,255,rgb:0,0,0,1"/>
                 <Option name="fixedAspectRatio" type="QString" value="0"/>
                 <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                <Option name="name" type="QString" value="./svg/topo_tank_water.svg"/>
+                <Option name="name" type="QString" value="./symbol/nztopo50_tank_water.svg"/>
                 <Option name="offset" type="QString" value="0,-1"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
@@ -43729,7 +43729,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="color" type="QString" value="0,0,255,255,rgb:0,0,1,1"/>
                 <Option name="fixedAspectRatio" type="QString" value="0"/>
                 <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                <Option name="name" type="QString" value="./svg/topo50_gate.svg"/>
+                <Option name="name" type="QString" value="./symbol/nztopo50_gate.svg"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
@@ -43783,7 +43783,7 @@ def my_form_open(dialog, layer, feature):
                     <Option name="color" type="QString" value="255,0,0,255,rgb:1,0,0,1"/>
                     <Option name="fixedAspectRatio" type="QString" value="0"/>
                     <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                    <Option name="name" type="QString" value="./svg/topo50_gate.svg"/>
+                    <Option name="name" type="QString" value="./symbol/nztopo50_gate.svg"/>
                     <Option name="offset" type="QString" value="0,0"/>
                     <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                     <Option name="offset_unit" type="QString" value="MM"/>
@@ -58827,7 +58827,7 @@ def my_form_open(dialog, layer, feature):
                     <Option name="color" type="QString" value="255,0,0,255,rgb:1,0,0,1"/>
                     <Option name="fixedAspectRatio" type="QString" value="0"/>
                     <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                    <Option name="name" type="QString" value="amenity/amenity_fountain.svg"/>
+                    <Option name="name" type="QString" value="./symbol/nztopo50_swamp.svg"/>
                     <Option name="offset" type="QString" value="0,0"/>
                     <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                     <Option name="offset_unit" type="QString" value="MM"/>
