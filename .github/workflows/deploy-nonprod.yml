@@ -16,10 +16,15 @@ jobs:
       pull-requests: write
     outputs:
       project_path: ${{ steps.project_path.outputs.project_path }}
+    env:
+      # `github.sha` is the ephemeral merge commit on pull requests, use the head commit instead
+      COMMIT_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - name: Lint QGIS Project
         run: |
@@ -42,8 +47,8 @@ jobs:
       - name: Get Commit Path for the project
         id: project_path
         run: |
-          first_char="${GITHUB_SHA:0:1}"
-          echo "project_path=https://d1jzh93b1t1cv.cloudfront.net/qgis/nztopo50/commit_prefix=${first_char}/commit=${GITHUB_SHA}/nztopo50.json" >> "$GITHUB_OUTPUT"
+          first_char="${COMMIT_SHA:0:1}"
+          echo "project_path=https://d1jzh93b1t1cv.cloudfront.net/qgis/nztopo50/commit_prefix=${first_char}/commit=${COMMIT_SHA}/nztopo50.json" >> "$GITHUB_OUTPUT"
 
       - name: (NonProd) Push commit deploy to S3
         run: |
@@ -51,7 +56,7 @@ jobs:
             --source "$PWD/deploy/catalog.json" \
             --target s3://linz-topography-nonprod/ \
             --category qgis \
-            --strategy "commit=${GITHUB_SHA}" \
+            --strategy "commit=${COMMIT_SHA}" \
             --commit
 
       - name: (NonProd) Push latest deploy to S3
@@ -62,7 +67,7 @@ jobs:
             --target s3://linz-topography-nonprod/ \
             --category qgis \
             --strategy latest \
-            --strategy "commit=${GITHUB_SHA}" \
+            --strategy "commit=${COMMIT_SHA}" \
             --commit
 
   visual-diff:
