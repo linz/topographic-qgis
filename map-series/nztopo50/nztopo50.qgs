@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveDateTime="2026-08-18T13:09:45" saveUser="KBaker" saveUserFull="Karl Baker" version="4.0.3-Norrköping">
+<qgis projectname="" saveDateTime="2026-08-18T13:34:43" saveUser="KBaker" saveUserFull="Karl Baker" version="4.0.3-Norrköping">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -54273,7 +54273,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem arrowRotation="0" background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" mapUuid="" northMode="0" northOffset="0" opacity="1" outlineWidthM="0.3,mm" position="252.239,840.544,mm" positionLock="false" positionOnPage="252.239,840.544,mm" referencePoint="4" size="20.0423,20.0423,mm" templateUuid="{4d9c383b-4486-4fe1-a1c2-346441e5969f}" type="65653" uuid="{4d9c383b-4486-4fe1-a1c2-346441e5969f}" visibility="1" zValue="61">
+      <LayoutItem arrowRotation="0" background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="Magnetic Declination" itemRotation="0" mapUuid="" northMode="0" northOffset="0" opacity="1" outlineWidthM="0.3,mm" position="252.239,840.544,mm" positionLock="false" positionOnPage="252.239,840.544,mm" referencePoint="4" size="20.0423,34.0009,mm" templateUuid="{4d9c383b-4486-4fe1-a1c2-346441e5969f}" type="65653" uuid="{4d9c383b-4486-4fe1-a1c2-346441e5969f}" visibility="1" zValue="61">
         <FrameColor alpha="255" blue="0" green="0" red="0"/>
         <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
         <LayoutObject>
@@ -54302,7 +54302,7 @@ def my_form_open(dialog, layer, feature):
               <Option name="color" type="QString" value="0,158,255,255,cmyk:1,0.3799954354763031,0,0,1"/>
               <Option name="fixedAspectRatio" type="QString" value="0"/>
               <Option name="horizontal_anchor_point" type="QString" value="1"/>
-              <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/topo50_magnetic_declination_text.svg"/>
+              <Option name="name" type="QString" value="./symbol/nztopo50_magnetic_declination_text.svg"/>
               <Option name="offset" type="QString" value="0,0"/>
               <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
               <Option name="offset_unit" type="QString" value="MM"/>
