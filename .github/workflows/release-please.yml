@@ -25,7 +25,7 @@ jobs:
         id: release
         uses: googleapis/release-please-action@v4
         with:
-          token: ${{ secrets.LI_GITHUB_ACTION_TOKEN }}
+          token: ${{ secrets.LINZ_GITHUB_AUTOMATION }}
 
   publish-release:
     needs: release-please
