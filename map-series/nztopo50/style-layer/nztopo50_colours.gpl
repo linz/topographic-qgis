@@ -1,0 +1,16 @@
+GIMP Palette
+Name: QGIS Palette
+Columns: 4
+#
+  0   0   0	black
+255  69   0	warm_red
+255 127   0	PMS151
+  0 158 255	process_blue
+148 255  59	PMS367
+161 171 171	PMS442
+  0   0   0	black_20
+  0 158 255	process_blue_20
+148 255  59	PMS367_25
+148 255  59	PMS367_40
+255 127   0	PMS151_30
+255 127   0	PMS151_50
