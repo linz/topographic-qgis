@@ -28,7 +28,7 @@
             <Option name="color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_highway_shield.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_highway_shield.svg"/>
             <Option name="offset" type="QString" value="0,0.10000000000000001"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -66,7 +66,7 @@
             <Option name="color" type="QString" value="164,113,88,255,rgb:0.6431373,0.4431373,0.345098,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_golf.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_golf.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -104,7 +104,7 @@
             <Option name="color" type="QString" value="114,155,111,255,rgb:0.4470588,0.6078432,0.4352941,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_mine_opencast.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_mine_opencast.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>

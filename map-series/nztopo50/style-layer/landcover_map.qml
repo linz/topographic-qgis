@@ -69,7 +69,7 @@
             <Option name="parameters"/>
             <Option name="pattern_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="pattern_width_unit" type="QString" value="MM"/>
-            <Option name="svgFile" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_shingle.svg"/>
+            <Option name="svgFile" type="QString" value="../symbol/nztopo50_shingle.svg"/>
             <Option name="svg_outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="svg_outline_width_unit" type="QString" value="MM"/>
             <Option name="width" type="QString" value="10"/>
@@ -184,7 +184,7 @@
             <Option name="parameters"/>
             <Option name="pattern_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="pattern_width_unit" type="QString" value="MM"/>
-            <Option name="svgFile" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_sand.svg"/>
+            <Option name="svgFile" type="QString" value="../symbol/nztopo50_sand.svg"/>
             <Option name="svg_outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="svg_outline_width_unit" type="QString" value="MM"/>
             <Option name="width" type="QString" value="10"/>
@@ -248,7 +248,7 @@
             <Option name="parameters"/>
             <Option name="pattern_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="pattern_width_unit" type="QString" value="MM"/>
-            <Option name="svgFile" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_sand.svg"/>
+            <Option name="svgFile" type="QString" value="../symbol/nztopo50_sand.svg"/>
             <Option name="svg_outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="svg_outline_width_unit" type="QString" value="MM"/>
             <Option name="width" type="QString" value="10"/>
@@ -281,7 +281,7 @@
             <Option name="parameters"/>
             <Option name="pattern_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="pattern_width_unit" type="QString" value="MM"/>
-            <Option name="svgFile" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_shingle.svg"/>
+            <Option name="svgFile" type="QString" value="../symbol/nztopo50_shingle.svg"/>
             <Option name="svg_outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="svg_outline_width_unit" type="QString" value="MM"/>
             <Option name="width" type="QString" value="10"/>
@@ -314,7 +314,7 @@
             <Option name="parameters"/>
             <Option name="pattern_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="pattern_width_unit" type="QString" value="MM"/>
-            <Option name="svgFile" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_shingle.svg"/>
+            <Option name="svgFile" type="QString" value="../symbol/nztopo50_shingle.svg"/>
             <Option name="svg_outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="svg_outline_width_unit" type="QString" value="MM"/>
             <Option name="width" type="QString" value="10"/>
@@ -385,7 +385,7 @@
             <Option name="parameters"/>
             <Option name="pattern_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="pattern_width_unit" type="QString" value="MM"/>
-            <Option name="svgFile" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/symbol/nztopo50_swamp.svg"/>
+            <Option name="svgFile" type="QString" value="../symbol/nztopo50_swamp.svg"/>
             <Option name="svg_outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="svg_outline_width_unit" type="QString" value="MM"/>
             <Option name="width" type="QString" value="4.5"/>

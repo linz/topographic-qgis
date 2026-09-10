@@ -164,7 +164,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_height.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_height.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -202,7 +202,7 @@
             <Option name="color" type="QString" value="255,127,0,255,cmyk:0,0.50000762939453125,1,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_sinkhole.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_sinkhole.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>

@@ -168,7 +168,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_rock.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_rock.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -206,7 +206,7 @@
             <Option name="color" type="QString" value="0,158,255,255,cmyk:1,0.3799954354763031,0,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="2"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_soakhole.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_soakhole.svg"/>
             <Option name="offset" type="QString" value="0.10000000000000001,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -250,7 +250,7 @@
             <Option name="color" type="QString" value="0,158,255,255,cmyk:1,0.3799954354763031,0,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_spring.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_spring.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -288,7 +288,7 @@
             <Option name="color" type="QString" value="255,69,56,255,cmyk:0,0.7300068736076355,0.77999544143676758,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_spring.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_spring.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -326,7 +326,7 @@
             <Option name="color" type="QString" value="0,158,255,255,cmyk:1,0.3799954354763031,0,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_waterfall.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_waterfall.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
