@@ -28,7 +28,7 @@ jobs:
 
       - name: Lint QGIS Project
         run: |
-          ./scripts/lint.sh "$PWD/map-series/nztopo50/nztopo50.qgs"
+          ./scripts/lint.sh "$PWD/map-series/nztopo50/nztopo50.qgs" $PWD/map-series/nztopo50/**/*.qml
 
       - name: (NonProd) Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4

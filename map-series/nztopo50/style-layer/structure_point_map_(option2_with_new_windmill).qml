@@ -199,7 +199,7 @@
             <Option name="color" type="QString" value="190,178,151,255,rgb:0.7450981,0.6980392,0.5921569,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_marine_beacon.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_marine_beacon.svg"/>
             <Option name="offset" type="QString" value="-0.10000000000000001,-1"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -237,7 +237,7 @@
             <Option name="color" type="QString" value="0,0,188,255,rgb:0,0,0.7371634,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_lighthouse.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_lighthouse.svg"/>
             <Option name="offset" type="QString" value="0,-1"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -275,7 +275,7 @@
             <Option name="color" type="QString" value="255,69,56,255,cmyk:0,0.7300068736076355,0.77999544143676758,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_gate.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_gate.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -319,7 +319,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_ladder.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_ladder.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -357,7 +357,7 @@
             <Option name="color" type="QString" value="255,158,23,255,cmyk:0,0.3803921639919281,0.90980392694473267,0,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_mast.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_mast.svg"/>
             <Option name="offset" type="QString" value="0,0.10000000000000001"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -488,7 +488,7 @@
             <Option name="color" type="QString" value="152,125,183,255,cmyk:0.16940565407276154,0.31694513559341431,0,0.28235295414924622,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_redoubt.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_redoubt.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -526,7 +526,7 @@
             <Option name="color" type="QString" value="190,178,151,255,cmyk:0,0.0631570890545845,0.20526435971260071,0.25490197539329529,1"/>
             <Option name="fixedAspectRatio" type="QString" value="1"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_shaft.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_shaft.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -564,7 +564,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_siphon.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_siphon.svg"/>
             <Option name="offset" type="QString" value="0,0.02"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -602,7 +602,7 @@
             <Option name="color" type="QString" value="0,0,0,0,cmyk:0,0,0,1,0"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_stockyard.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_stockyard.svg"/>
             <Option name="offset" type="QString" value="0,0.06"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -640,7 +640,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_tank_fuel.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_tank_fuel.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -678,7 +678,7 @@
             <Option name="color" type="QString" value="0,0,0,0,cmyk:0,0,0,1,0"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_tank_water.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_tank_water.svg"/>
             <Option name="offset" type="QString" value="0.02,0.05"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -716,7 +716,7 @@
             <Option name="color" type="QString" value="229,182,54,255,cmyk:0,0.20523384213447571,0.76418709754943848,0.10196078568696976,1"/>
             <Option name="fixedAspectRatio" type="QString" value="1.1589"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_tower.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_tower.svg"/>
             <Option name="offset" type="QString" value="0,-0.6588235294117647"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -754,7 +754,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_bivouac.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_bivouac.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -798,7 +798,7 @@
             <Option name="color" type="QString" value="0,0,0,0,cmyk:0,0,0,1,0"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_well.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_well.svg"/>
             <Option name="offset" type="QString" value="0,0.10000000000000001"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -836,7 +836,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_windmill.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_windmill.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -874,7 +874,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_windmill_power.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_windmill_2.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -912,7 +912,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_wreck.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_wreck_plane.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -950,7 +950,7 @@
             <Option name="color" type="QString" value="55,125,183,255,rgb:0.2144961,0.4901961,0.7176471,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_shipwreck.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_wreck_ship.svg"/>
             <Option name="offset" type="QString" value="0.25,-0.59999999999999998"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -988,7 +988,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_bivouac_rock.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_bivouac_rock.svg"/>
             <Option name="offset" type="QString" value="0,0.10000000000000001"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -1026,7 +1026,7 @@
             <Option name="color" type="QString" value="0,0,0,0,cmyk:0,0,0,1,0"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_buoy.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_buoy.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -1064,7 +1064,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_chimney.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_chimney.svg"/>
             <Option name="offset" type="QString" value="0,0.05"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -1102,7 +1102,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_building.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_building.svg"/>
             <Option name="offset" type="QString" value="0,0.10000000000000001"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -1140,7 +1140,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_building.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_building.svg"/>
             <Option name="offset" type="QString" value="0,0.10000000000000001"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -1178,7 +1178,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_floodgate.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_floodgate.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
@@ -1222,7 +1222,7 @@
             <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
             <Option name="fixedAspectRatio" type="QString" value="0"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
-            <Option name="name" type="QString" value="C:/Temp/kart/topographic-qgis/map-series/nztopo50/svg/topo50_gate.svg"/>
+            <Option name="name" type="QString" value="../symbol/nztopo50_gate.svg"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
