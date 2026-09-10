@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.68 4.68">
+  <path d="M3.74.94L.94,3.74" fill="none" stroke="param(outline)" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".35"/>
+  <path d="M.94.94l2.81,2.81" fill="none" stroke="param(outline)" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".35"/>
+  <circle cx="2.34" cy="2.34" r="2.13" fill="none" stroke="param(outline)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".43"/>
+</svg>
