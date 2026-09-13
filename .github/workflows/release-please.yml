@@ -19,7 +19,7 @@ jobs:
       release_version: ${{ steps.release.outputs.version }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Run Release Please
         id: release
@@ -39,7 +39,7 @@ jobs:
     if: ${{ needs.release-please.outputs.releases_created }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: (Prod) Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
