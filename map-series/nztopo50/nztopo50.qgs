@@ -91,7 +91,7 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="nztopo50_carto_symbol_label_952c572f_78c3_44f4_b31d_44957bb45a74" legend_exp="" legend_split_behavior="0" name="nztopo50_carto_symbol_label" patch_size="-1,-1" providerKey="ogr" source="../../../../../Users/KBaker/Downloads/nztopo50_carto_symbol.parquet|layername=nztopo50_carto_symbol">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="nztopo50_carto_symbol_label_952c572f_78c3_44f4_b31d_44957bb45a74" legend_exp="" legend_split_behavior="0" name="nztopo50_carto_symbol_label" patch_size="-1,-1" providerKey="ogr" source="./nztopo50_carto_symbol.parquet|layername=nztopo50_carto_symbol">
       <customproperties>
         <Option type="Map">
           <Option name="expandedLegendNodes"/>
