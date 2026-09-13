@@ -36509,7 +36509,7 @@ def my_form_open(dialog, layer, feature):
                     <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
                     <Option name="fixedAspectRatio" type="QString" value="0"/>
                     <Option name="horizontal_anchor_point" type="QString" value="2"/>
-                    <Option name="name" type="QString" value="../symbol/nztopo50_walkwire.svg"/>
+                    <Option name="name" type="QString" value="./symbol/nztopo50_walkwire.svg"/>
                     <Option name="offset" type="QString" value="0,0"/>
                     <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                     <Option name="offset_unit" type="QString" value="MM"/>
@@ -36575,7 +36575,7 @@ def my_form_open(dialog, layer, feature):
                     <Option name="color" type="QString" value="0,0,0,255,cmyk:0,0,0,1,1"/>
                     <Option name="fixedAspectRatio" type="QString" value="0"/>
                     <Option name="horizontal_anchor_point" type="QString" value="2"/>
-                    <Option name="name" type="QString" value="../symbol/nztopo50_walkwire.svg"/>
+                    <Option name="name" type="QString" value="./symbol/nztopo50_walkwire.svg"/>
                     <Option name="offset" type="QString" value="0,0"/>
                     <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                     <Option name="offset_unit" type="QString" value="MM"/>
