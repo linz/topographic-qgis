@@ -18015,7 +18015,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-34.02713699909393341</ymax>
       </wgs84extent>
       <id>nztopo50_carto_symbol_label_952c572f_78c3_44f4_b31d_44957bb45a74</id>
-      <datasource>../../../../../Users/KBaker/Downloads/nztopo50_carto_symbol.parquet|layername=nztopo50_carto_symbol</datasource>
+      <datasource>./nztopo50_carto_symbol.parquet|layername=nztopo50_carto_symbol</datasource>
       <layername>nztopo50_carto_symbol_label</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
