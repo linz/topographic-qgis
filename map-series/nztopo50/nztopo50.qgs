@@ -17178,68 +17178,6 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer class="MaskMarker" enabled="1" id="{dd0aec67-ac2a-4bfc-83b0-a940a2408ab8}" locked="0" pass="0">
-              <Option type="Map">
-                <Option name="mask_symbollayers" type="QString" value="contour_29b7338d_32d7_4edc_89f1_356ed01fb423;{9ead377c-7c49-4538-a283-3a18b4e17660}"/>
-              </Option>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
-                  <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
-                </Option>
-              </data_defined_properties>
-              <symbol alpha="1" clip_to_extent="1" force_rhr="0" frame_rate="10" is_animated="0" name="@3@1" type="marker">
-                <data_defined_properties>
-                  <Option type="Map">
-                    <Option name="name" type="QString" value=""/>
-                    <Option name="properties"/>
-                    <Option name="type" type="QString" value="collection"/>
-                  </Option>
-                </data_defined_properties>
-                <layer class="EllipseMarker" enabled="1" id="{84efb2a3-ad34-4b1b-abd9-3ae15779d320}" locked="0" pass="0">
-                  <Option type="Map">
-                    <Option name="angle" type="QString" value="0"/>
-                    <Option name="cap_style" type="QString" value="square"/>
-                    <Option name="color" type="QString" value="255,0,0,255,rgb:1,0,0,1"/>
-                    <Option name="horizontal_anchor_point" type="QString" value="1"/>
-                    <Option name="joinstyle" type="QString" value="bevel"/>
-                    <Option name="offset" type="QString" value="0,0"/>
-                    <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                    <Option name="offset_unit" type="QString" value="MM"/>
-                    <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
-                    <Option name="outline_style" type="QString" value="solid"/>
-                    <Option name="outline_width" type="QString" value="0"/>
-                    <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                    <Option name="outline_width_unit" type="QString" value="MM"/>
-                    <Option name="size" type="QString" value="3"/>
-                    <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                    <Option name="size_unit" type="QString" value="MM"/>
-                    <Option name="symbol_height" type="QString" value="2"/>
-                    <Option name="symbol_height_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                    <Option name="symbol_height_unit" type="QString" value="MM"/>
-                    <Option name="symbol_name" type="QString" value="circle"/>
-                    <Option name="symbol_width" type="QString" value="3"/>
-                    <Option name="symbol_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                    <Option name="symbol_width_unit" type="QString" value="MM"/>
-                    <Option name="vertical_anchor_point" type="QString" value="1"/>
-                  </Option>
-                  <data_defined_properties>
-                    <Option type="Map">
-                      <Option name="name" type="QString" value=""/>
-                      <Option name="properties" type="Map">
-                        <Option name="angle" type="Map">
-                          <Option name="active" type="bool" value="true"/>
-                          <Option name="expression" type="QString" value="&quot;orientation&quot;"/>
-                          <Option name="type" type="int" value="3"/>
-                        </Option>
-                      </Option>
-                      <Option name="type" type="QString" value="collection"/>
-                    </Option>
-                  </data_defined_properties>
-                </layer>
-              </symbol>
-            </layer>
           </symbol>
         </symbols>
         <data-defined-properties>
